@@ -1,0 +1,8452 @@
+{
+  "extra/alias-keys-in-output": {
+    "data": {
+      "x": "1",
+      "y": "2"
+    },
+    "errors": []
+  },
+  "extra/concrete-ignores-source-typename": {
+    "data": {
+      "user": {
+        "__typename": "User",
+        "id": "u1"
+      }
+    },
+    "errors": []
+  },
+  "extra/field-error-abstract-gets-scalar": {
+    "data": {
+      "node": null
+    },
+    "errors": [
+      [
+        "node"
+      ]
+    ]
+  },
+  "extra/field-error-abstract-non-string-typename": {
+    "data": {
+      "node": null
+    },
+    "errors": [
+      [
+        "node"
+      ]
+    ]
+  },
+  "extra/field-error-abstract-typename-is-interface": {
+    "data": {
+      "node": null
+    },
+    "errors": [
+      [
+        "node"
+      ]
+    ]
+  },
+  "extra/field-error-int-gets-bool": {
+    "data": {
+      "count": null
+    },
+    "errors": [
+      [
+        "count"
+      ]
+    ]
+  },
+  "extra/field-error-int-gets-string": {
+    "data": {
+      "count": null
+    },
+    "errors": [
+      [
+        "count"
+      ]
+    ]
+  },
+  "extra/field-error-list-gets-object": {
+    "data": {
+      "tags": null
+    },
+    "errors": [
+      [
+        "tags"
+      ]
+    ]
+  },
+  "extra/field-error-list-gets-string": {
+    "data": {
+      "tags": null
+    },
+    "errors": [
+      [
+        "tags"
+      ]
+    ]
+  },
+  "extra/field-error-object-gets-list": {
+    "data": {
+      "user": null
+    },
+    "errors": [
+      [
+        "user"
+      ]
+    ]
+  },
+  "extra/field-error-object-gets-scalar": {
+    "data": {
+      "user": null
+    },
+    "errors": [
+      [
+        "user"
+      ]
+    ]
+  },
+  "extra/field-error-scalar-gets-list": {
+    "data": {
+      "name": null
+    },
+    "errors": [
+      [
+        "name"
+      ]
+    ]
+  },
+  "extra/field-error-scalar-gets-object": {
+    "data": {
+      "name": null
+    },
+    "errors": [
+      [
+        "name"
+      ]
+    ]
+  },
+  "extra/field-error-string-gets-int": {
+    "data": {
+      "name": null
+    },
+    "errors": [
+      [
+        "name"
+      ]
+    ]
+  },
+  "extra/nullable-list-stays-null": {
+    "data": {
+      "nums": null
+    },
+    "errors": []
+  },
+  "extra/reject-anonymous-plus-named": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-conflict-despite-skip": {
+    "data": null,
+    "errors": [
+      [
+        "x"
+      ]
+    ]
+  },
+  "extra/reject-conflict-different-fields": {
+    "data": null,
+    "errors": [
+      [
+        "x"
+      ]
+    ]
+  },
+  "extra/reject-conflict-exclusive-list-shape": {
+    "data": null,
+    "errors": [
+      [
+        "a"
+      ]
+    ]
+  },
+  "extra/reject-conflict-exclusive-shape": {
+    "data": null,
+    "errors": [
+      [
+        "node"
+      ]
+    ]
+  },
+  "extra/reject-conflict-fragment-vs-direct": {
+    "data": null,
+    "errors": [
+      [
+        "x"
+      ]
+    ]
+  },
+  "extra/reject-conflict-list-shape": {
+    "data": null,
+    "errors": [
+      [
+        "x"
+      ]
+    ]
+  },
+  "extra/reject-conflict-nested-fragment": {
+    "data": null,
+    "errors": [
+      [
+        "user"
+      ]
+    ]
+  },
+  "extra/reject-conflict-nonnull-shape": {
+    "data": null,
+    "errors": [
+      [
+        "x"
+      ]
+    ]
+  },
+  "extra/reject-conflict-shape": {
+    "data": null,
+    "errors": [
+      [
+        "x"
+      ]
+    ]
+  },
+  "extra/reject-conflict-subfield": {
+    "data": null,
+    "errors": [
+      [
+        "user"
+      ]
+    ]
+  },
+  "extra/reject-conflict-via-fragments": {
+    "data": null,
+    "errors": [
+      [
+        "x"
+      ]
+    ]
+  },
+  "extra/reject-custom-directive": {
+    "data": null,
+    "errors": [
+      [
+        "a"
+      ]
+    ]
+  },
+  "extra/reject-custom-directive-def": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-custom-scalar": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-directive-case": {
+    "data": null,
+    "errors": [
+      [
+        "a"
+      ]
+    ]
+  },
+  "extra/reject-directive-on-operation": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-duplicate-fragments": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-duplicate-operation-names": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-duplicate-type": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-empty-query": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-enum": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-field-arguments": {
+    "data": null,
+    "errors": [
+      [
+        "user"
+      ]
+    ]
+  },
+  "extra/reject-field-on-union": {
+    "data": null,
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "extra/reject-float": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-fragment-cycle": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-fragment-only-document": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-id": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-include-non-boolean": {
+    "data": null,
+    "errors": [
+      [
+        "a"
+      ]
+    ]
+  },
+  "extra/reject-input-object": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-introspection-schema": {
+    "data": null,
+    "errors": [
+      [
+        "__schema"
+      ]
+    ]
+  },
+  "extra/reject-introspection-type": {
+    "data": null,
+    "errors": [
+      [
+        "__type"
+      ]
+    ]
+  },
+  "extra/reject-missing-member": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-mutation": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-no-query-root": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-non-object-payload": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-non-string-query": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-non-string-schema": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-query-syntax": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-schema-syntax": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-sdl-field-arguments": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-skip-without-if": {
+    "data": null,
+    "errors": [
+      [
+        "a"
+      ]
+    ]
+  },
+  "extra/reject-subscription": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-two-operations": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-typename-with-selection": {
+    "data": null,
+    "errors": [
+      [
+        "__typename"
+      ]
+    ]
+  },
+  "extra/reject-unknown-field": {
+    "data": null,
+    "errors": [
+      [
+        "nope"
+      ]
+    ]
+  },
+  "extra/reject-unknown-field-despite-skip": {
+    "data": null,
+    "errors": [
+      [
+        "nope"
+      ]
+    ]
+  },
+  "extra/reject-unused-fragment": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-variable-definition": {
+    "data": null,
+    "errors": [
+      [
+        "$"
+      ]
+    ]
+  },
+  "extra/reject-variable-use": {
+    "data": null,
+    "errors": [
+      [
+        "a"
+      ]
+    ]
+  },
+  "extra/root-revoked-data-null": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/abstract-child-bubble": {
+    "data": {
+      "node": null
+    },
+    "errors": [
+      [
+        "node",
+        "id"
+      ]
+    ]
+  },
+  "intersection/abstract-item-error-in-list": {
+    "data": {
+      "nodes": [
+        {
+          "id": "u1"
+        },
+        null,
+        {
+          "id": "o1"
+        }
+      ]
+    },
+    "errors": [
+      [
+        "nodes",
+        1
+      ]
+    ]
+  },
+  "intersection/abstract-missing-typename": {
+    "data": {
+      "node": null
+    },
+    "errors": [
+      [
+        "node"
+      ]
+    ]
+  },
+  "intersection/abstract-nonnull-list-bubble": {
+    "data": null,
+    "errors": [
+      [
+        "mustNodes",
+        1
+      ]
+    ]
+  },
+  "intersection/abstract-unknown-typename": {
+    "data": {
+      "node": null
+    },
+    "errors": [
+      [
+        "node"
+      ]
+    ]
+  },
+  "intersection/abstract-wrong-type-typename": {
+    "data": {
+      "entity": null
+    },
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "intersection/alias-duplication-same-field": {
+    "data": {
+      "a": "x"
+    },
+    "errors": []
+  },
+  "intersection/alias-named-like-meta": {
+    "data": {
+      "__typename": "x"
+    },
+    "errors": []
+  },
+  "intersection/aliases": {
+    "data": {
+      "a": "x",
+      "b": false,
+      "c": 0
+    },
+    "errors": []
+  },
+  "intersection/all-fields-skipped": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/covariant-interface-field": {
+    "data": {
+      "node": {
+        "friend": {
+          "id": "u2"
+        },
+        "id": "u1"
+      }
+    },
+    "errors": []
+  },
+  "intersection/custom-schema-block": {
+    "data": {
+      "a": "x"
+    },
+    "errors": []
+  },
+  "intersection/deep-error-path": {
+    "data": {
+      "user": {
+        "friend": null
+      }
+    },
+    "errors": [
+      [
+        "user",
+        "friend",
+        "id"
+      ]
+    ]
+  },
+  "intersection/deep-friend-chain": {
+    "data": {
+      "user": {
+        "friend": {
+          "friend": {
+            "id": "c"
+          },
+          "id": "b"
+        },
+        "id": "a"
+      }
+    },
+    "errors": []
+  },
+  "intersection/deep-friend-null": {
+    "data": {
+      "user": {
+        "friend": null,
+        "id": "a"
+      }
+    },
+    "errors": []
+  },
+  "intersection/deep-nonnull-chain-bubble": {
+    "data": null,
+    "errors": [
+      [
+        "a",
+        0,
+        0
+      ]
+    ]
+  },
+  "intersection/duplicate-spread-collected-once": {
+    "data": {
+      "name": "x"
+    },
+    "errors": []
+  },
+  "intersection/empty-list": {
+    "data": {
+      "tags": []
+    },
+    "errors": []
+  },
+  "intersection/error-in-object-list": {
+    "data": {
+      "users": null
+    },
+    "errors": [
+      [
+        "users",
+        1,
+        "id"
+      ]
+    ]
+  },
+  "intersection/error-order-depth-first": {
+    "data": {
+      "nums": null,
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "id"
+      ],
+      [
+        "nums",
+        0
+      ]
+    ]
+  },
+  "intersection/exclusive-alias-different-fields": {
+    "data": {
+      "node": {
+        "x": "Acme"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fragment-merge-same-key": {
+    "data": {
+      "user": {
+        "id": "u1",
+        "name": "Ann"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fragment-on-interface": {
+    "data": {
+      "node": {
+        "id": "u1"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fragment-on-query": {
+    "data": {
+      "flag": true,
+      "name": "x"
+    },
+    "errors": []
+  },
+  "intersection/fragment-on-union": {
+    "data": {
+      "entity": {
+        "name": "Ann"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-000": {
+    "data": {
+      "a1": true,
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-001": {
+    "data": {
+      "a2": true,
+      "mustEntity": {
+        "fu_id": "",
+        "fu_name": null,
+        "tags": [],
+        "vip": false
+      },
+      "tags": null,
+      "users": null
+    },
+    "errors": [
+      [
+        "users",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-002": {
+    "data": {
+      "a1": {
+        "a2": "a",
+        "fn_id": "a",
+        "fo_id": "a",
+        "fo_title": "a",
+        "id": "a",
+        "members": null
+      },
+      "fq_name": ""
+    },
+    "errors": [
+      [
+        "a1",
+        "members",
+        1
+      ]
+    ]
+  },
+  "intersection/fuzz-003": {
+    "data": {
+      "a1": {
+        "a2": null,
+        "friend": null
+      },
+      "matrix": [
+        [
+          33,
+          22
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-004": {
+    "data": {
+      "entity": {
+        "fn_id": "",
+        "fo_id": "",
+        "fo_title": "xyz",
+        "id": "",
+        "members": [
+          {
+            "tags": [
+              "b",
+              "b"
+            ]
+          },
+          {
+            "tags": null
+          }
+        ],
+        "title": "xyz"
+      },
+      "flag": true
+    },
+    "errors": []
+  },
+  "intersection/fuzz-005": {
+    "data": {
+      "a1": false,
+      "fq_name": "b"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-006": {
+    "data": {
+      "__typename": "Query",
+      "a1": {
+        "fn_id": "b",
+        "friend": {
+          "a2": null,
+          "age": -2,
+          "fn_id": "",
+          "tags": [
+            "a",
+            "xyz"
+          ]
+        },
+        "name": "a",
+        "scores": null
+      },
+      "mustUser": {
+        "__typename": "User",
+        "fn_id": "b",
+        "friend": {
+          "id": ""
+        },
+        "id": "b",
+        "vip": false
+      }
+    },
+    "errors": [
+      [
+        "a1",
+        "friend",
+        "a2",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-007": {
+    "data": {
+      "__typename": "Query",
+      "count": 92,
+      "entity": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-008": {
+    "data": {
+      "__typename": "Query",
+      "mustUser": {
+        "id": "xyz"
+      },
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-009": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-010": {
+    "data": {
+      "a1": -3,
+      "name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-011": {
+    "data": {
+      "a1": null,
+      "mustUser": {
+        "a3": null,
+        "fu_id": "",
+        "fu_name": ""
+      },
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-012": {
+    "data": {
+      "mustEntity": {
+        "age": 96
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-013": {
+    "data": {
+      "flag": true,
+      "node": null
+    },
+    "errors": [
+      [
+        "node",
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-014": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-015": {
+    "data": {
+      "a1": null,
+      "a2": [],
+      "fq_name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-016": {
+    "data": {
+      "a1": {
+        "__typename": "User",
+        "fu_id": "a",
+        "fu_name": null,
+        "id": "a"
+      },
+      "a3": [
+        {
+          "__typename": "User",
+          "age": 25,
+          "fn_id": "a",
+          "friend": null
+        },
+        {
+          "__typename": "User",
+          "age": null,
+          "fn_id": "a",
+          "friend": null
+        }
+      ]
+    },
+    "errors": [
+      [
+        "a3",
+        0,
+        "friend",
+        "a4"
+      ],
+      [
+        "a3",
+        1,
+        "friend",
+        "a4"
+      ]
+    ]
+  },
+  "intersection/fuzz-017": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-018": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-019": {
+    "data": {
+      "entity": {
+        "__typename": "Org"
+      },
+      "fq_name": "xyz",
+      "nums": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-020": {
+    "data": {
+      "a1": [
+        {
+          "a2": [
+            {
+              "__typename": "User",
+              "a4": []
+            }
+          ],
+          "id": ""
+        }
+      ],
+      "flag": true
+    },
+    "errors": []
+  },
+  "intersection/fuzz-021": {
+    "data": {
+      "__typename": "Query",
+      "entity": null,
+      "fq_name": "xyz",
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-022": {
+    "data": {
+      "fq_name": null,
+      "matrix": [],
+      "mustUser": {
+        "scores": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-023": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-024": {
+    "data": {
+      "__typename": "Query"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-025": {
+    "data": {
+      "a1": null,
+      "mustEntity": {
+        "a4": [
+          "xyz",
+          "b"
+        ],
+        "friend": {
+          "__typename": "User",
+          "a3": false,
+          "fn_id": "b",
+          "fu_id": "b",
+          "fu_name": "",
+          "tags": null
+        },
+        "vip": true
+      },
+      "node": {
+        "__typename": "User",
+        "friend": {
+          "__typename": "User",
+          "id": "b"
+        },
+        "id": "",
+        "vip": true
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-026": {
+    "data": {
+      "entity": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-027": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-028": {
+    "data": {
+      "fq_name": "xyz"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-029": {
+    "data": {
+      "__typename": "Query",
+      "count": 74,
+      "fq_name": null,
+      "user": {
+        "fn_id": "",
+        "friend": null,
+        "id": "",
+        "scores": []
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-030": {
+    "data": {
+      "nodes": [
+        null
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-031": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-032": {
+    "data": {
+      "name": "a",
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-033": {
+    "data": {
+      "__typename": "Query",
+      "entity": {
+        "fe_t": "Org"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-034": {
+    "data": {
+      "entity": null,
+      "fq_name": "a",
+      "matrix": [
+        [
+          80
+        ],
+        [
+          81
+        ]
+      ]
+    },
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "intersection/fuzz-035": {
+    "data": {
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-036": {
+    "data": {
+      "__typename": "Query",
+      "a1": {
+        "__typename": "Org",
+        "id": "b",
+        "members": [
+          {
+            "a2": ""
+          }
+        ],
+        "title": "xyz"
+      },
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-037": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-038": {
+    "data": {
+      "__typename": "Query"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-039": {
+    "data": {
+      "name": "xyz"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-040": {
+    "data": {
+      "a1": true,
+      "tags": [
+        "a",
+        ""
+      ],
+      "users": null
+    },
+    "errors": [
+      [
+        "users",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-041": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-042": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-043": {
+    "data": {
+      "flag": false
+    },
+    "errors": []
+  },
+  "intersection/fuzz-044": {
+    "data": {
+      "a1": {
+        "__typename": "Org",
+        "fe_t": "Org"
+      },
+      "entity": null
+    },
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "intersection/fuzz-045": {
+    "data": {
+      "a1": {
+        "__typename": "User",
+        "fe_t": "User",
+        "fn_id": "b",
+        "fu_id": "b",
+        "fu_name": null,
+        "tags": null,
+        "vip": false
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-046": {
+    "data": {
+      "mustEntity": {
+        "name": ""
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-047": {
+    "data": {
+      "a1": "",
+      "count": 11,
+      "entity": {
+        "__typename": "Org"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-048": {
+    "data": {
+      "a2": [
+        [
+          82
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-049": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-050": {
+    "data": {
+      "a1": [],
+      "nums": null
+    },
+    "errors": [
+      [
+        "nums",
+        1
+      ]
+    ]
+  },
+  "intersection/fuzz-051": {
+    "data": {
+      "users": [
+        {
+          "__typename": "User",
+          "age": 65,
+          "fn_id": "",
+          "friend": {
+            "__typename": "User",
+            "friend": {
+              "a1": 34,
+              "scores": [
+                88,
+                55
+              ]
+            },
+            "tags": [
+              "b",
+              "xyz"
+            ],
+            "vip": false
+          }
+        },
+        {
+          "__typename": "User",
+          "age": 60,
+          "fn_id": "xyz",
+          "friend": {
+            "__typename": "User",
+            "friend": {
+              "a1": null,
+              "scores": null
+            },
+            "tags": [
+              null
+            ],
+            "vip": true
+          }
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-052": {
+    "data": {
+      "flag": false,
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-053": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-054": {
+    "data": {
+      "__typename": "Query",
+      "mustEntity": {
+        "fe_t": "User",
+        "friend": {
+          "__typename": "User",
+          "scores": [
+            94
+          ]
+        },
+        "fu_id": "",
+        "fu_name": "a"
+      },
+      "nodes": [
+        {
+          "a2": null,
+          "fo_id": "b",
+          "fo_title": null,
+          "id": "b",
+          "title": null
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-055": {
+    "data": {
+      "a1": {
+        "__typename": "Org",
+        "fe_t": "Org"
+      },
+      "fq_name": "xyz"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-056": {
+    "data": {
+      "mustEntity": {
+        "__typename": "User"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-057": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-058": {
+    "data": {
+      "a2": 49,
+      "name": "b",
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-059": {
+    "data": {
+      "a1": [
+        null,
+        null
+      ],
+      "nums": [
+        2
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-060": {
+    "data": {
+      "__typename": "Query",
+      "a1": 64,
+      "a2": {
+        "fe_t": "Org"
+      },
+      "users": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-061": {
+    "data": {
+      "flag": false
+    },
+    "errors": []
+  },
+  "intersection/fuzz-062": {
+    "data": {
+      "name": null,
+      "users": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-063": {
+    "data": {
+      "a1": "",
+      "flag": true
+    },
+    "errors": []
+  },
+  "intersection/fuzz-064": {
+    "data": {
+      "fq_name": "a",
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-065": {
+    "data": {
+      "__typename": "Query",
+      "a2": null,
+      "a3": "",
+      "nodes": [
+        {
+          "__typename": "Org",
+          "fn_id": "a",
+          "fo_id": "a",
+          "fo_title": "b",
+          "id": "a"
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-066": {
+    "data": {
+      "__typename": "Query",
+      "name": "b",
+      "node": {
+        "__typename": "Org",
+        "fn_id": "xyz",
+        "id": "xyz"
+      },
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-067": {
+    "data": {
+      "nums": [
+        5,
+        95
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-068": {
+    "data": {
+      "a1": "a",
+      "a2": [
+        [
+          8,
+          86
+        ]
+      ],
+      "mustEntity": {
+        "__typename": "User",
+        "a3": {
+          "age": null
+        },
+        "name": "a"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-069": {
+    "data": {
+      "a1": {
+        "a5": "b",
+        "fo_id": "",
+        "fo_title": "b",
+        "members": null
+      }
+    },
+    "errors": [
+      [
+        "a1",
+        "members",
+        0,
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-070": {
+    "data": {
+      "__typename": "Query",
+      "a2": null,
+      "entity": null,
+      "flag": true
+    },
+    "errors": []
+  },
+  "intersection/fuzz-071": {
+    "data": {
+      "a1": [
+        {
+          "a2": "a",
+          "age": 45,
+          "scores": []
+        }
+      ],
+      "flag": false,
+      "fq_name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-072": {
+    "data": {
+      "__typename": "Query",
+      "a1": {
+        "__typename": "Org",
+        "a2": "a",
+        "fo_id": "a",
+        "fo_title": "b",
+        "members": null,
+        "title": "b"
+      },
+      "count": null,
+      "fq_name": null,
+      "matrix": [
+        []
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-073": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-074": {
+    "data": {
+      "__typename": "Query",
+      "fq_name": "b",
+      "name": "b",
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-075": {
+    "data": null,
+    "errors": [
+      [
+        "user",
+        "vip"
+      ],
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-076": {
+    "data": {
+      "__typename": "Query",
+      "node": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-077": {
+    "data": {
+      "entity": null,
+      "fq_name": "",
+      "nodes": [
+        {
+          "fn_id": "a",
+          "id": "a"
+        }
+      ]
+    },
+    "errors": [
+      [
+        "entity",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-078": {
+    "data": {
+      "entity": null,
+      "mustEntity": {
+        "__typename": "User"
+      },
+      "user": null
+    },
+    "errors": [
+      [
+        "entity",
+        "fn_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-079": {
+    "data": {
+      "mustEntity": {
+        "__typename": "Org",
+        "fn_id": "xyz",
+        "id": "xyz",
+        "title": null
+      },
+      "node": {
+        "fn_id": "b",
+        "id": "b"
+      },
+      "nodes": [],
+      "nums": [
+        20
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-080": {
+    "data": {
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-081": {
+    "data": {
+      "__typename": "Query",
+      "mustEntity": {
+        "__typename": "User",
+        "a2": "xyz",
+        "a3": [
+          "a",
+          "a"
+        ]
+      },
+      "name": "xyz"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-082": {
+    "data": {
+      "__typename": "Query",
+      "a1": [
+        "b"
+      ],
+      "count": 13
+    },
+    "errors": []
+  },
+  "intersection/fuzz-083": {
+    "data": {
+      "a1": {
+        "__typename": "User",
+        "fn_id": "b",
+        "id": "b"
+      },
+      "count": 3
+    },
+    "errors": []
+  },
+  "intersection/fuzz-084": {
+    "data": {
+      "a3": null,
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-085": {
+    "data": {
+      "a1": null,
+      "nodes": [],
+      "tags": [
+        null
+      ]
+    },
+    "errors": [
+      [
+        "a1",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-086": {
+    "data": {
+      "a1": null,
+      "name": "a",
+      "node": null
+    },
+    "errors": [
+      [
+        "node"
+      ]
+    ]
+  },
+  "intersection/fuzz-087": {
+    "data": {
+      "nums": [
+        73,
+        33
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-088": {
+    "data": {
+      "a1": null,
+      "node": null
+    },
+    "errors": [
+      [
+        "node"
+      ]
+    ]
+  },
+  "intersection/fuzz-089": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-090": {
+    "data": {
+      "__typename": "Query",
+      "a1": "xyz"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-091": {
+    "data": {
+      "fq_name": "b",
+      "nodes": [
+        null
+      ]
+    },
+    "errors": [
+      [
+        "nodes",
+        0,
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-092": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-093": {
+    "data": {
+      "__typename": "Query",
+      "user": {
+        "fu_id": "",
+        "fu_name": "b",
+        "name": "b",
+        "tags": []
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-094": {
+    "data": {
+      "__typename": "Query",
+      "nums": [
+        1
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-095": {
+    "data": {
+      "count": -3,
+      "mustEntity": {
+        "friend": null,
+        "fu_id": "xyz",
+        "fu_name": "a",
+        "name": "a"
+      },
+      "node": {
+        "fn_id": "xyz",
+        "id": "xyz"
+      }
+    },
+    "errors": [
+      [
+        "mustEntity",
+        "friend",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-096": {
+    "data": {
+      "flag": true,
+      "matrix": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-097": {
+    "data": {
+      "__typename": "Query",
+      "a1": {
+        "friend": null,
+        "fu_id": "",
+        "fu_name": null,
+        "scores": null
+      },
+      "fq_name": "",
+      "tags": [
+        "xyz"
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-098": {
+    "data": {
+      "count": 7,
+      "flag": false,
+      "user": {
+        "__typename": "User",
+        "friend": {
+          "a1": null,
+          "fn_id": "xyz",
+          "fu_id": "xyz",
+          "fu_name": null
+        },
+        "name": "xyz"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-099": {
+    "data": {
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-100": {
+    "data": {
+      "a1": {
+        "age": 29,
+        "fn_id": "xyz",
+        "fu_id": "xyz",
+        "fu_name": null
+      },
+      "a2": {
+        "tags": [
+          "xyz",
+          null
+        ],
+        "vip": true
+      },
+      "flag": false,
+      "fq_name": "b",
+      "mustEntity": {
+        "__typename": "User",
+        "fe_t": "User",
+        "friend": {
+          "__typename": "User",
+          "id": "",
+          "name": ""
+        },
+        "fu_id": "a",
+        "fu_name": "a",
+        "scores": []
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-101": {
+    "data": {
+      "a1": [],
+      "nums": [
+        60,
+        49
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-102": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-103": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-104": {
+    "data": {
+      "a1": null,
+      "nodes": []
+    },
+    "errors": [
+      [
+        "a1",
+        1,
+        1
+      ]
+    ]
+  },
+  "intersection/fuzz-105": {
+    "data": {
+      "mustUser": {
+        "a1": "xyz",
+        "a2": {
+          "a3": 38,
+          "id": "a"
+        },
+        "age": -5
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-106": {
+    "data": {
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-107": {
+    "data": {
+      "a1": {},
+      "mustUser": {
+        "a3": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-108": {
+    "data": {
+      "__typename": "Query",
+      "user": {
+        "age": 89,
+        "friend": {
+          "fn_id": "a",
+          "name": null
+        },
+        "fu_id": "a",
+        "fu_name": "xyz",
+        "scores": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-109": {
+    "data": {
+      "a1": 28,
+      "nums": [
+        75,
+        99
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-110": {
+    "data": {
+      "nodes": [
+        null
+      ]
+    },
+    "errors": [
+      [
+        "nodes",
+        0,
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-111": {
+    "data": {
+      "a1": null,
+      "mustEntity": {
+        "fe_t": "Org"
+      },
+      "nodes": [
+        {
+          "__typename": "User",
+          "fn_id": "",
+          "id": "",
+          "vip": true
+        },
+        {
+          "__typename": "User",
+          "fn_id": "",
+          "id": "",
+          "vip": true
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-112": {
+    "data": {
+      "matrix": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-113": {
+    "data": {
+      "matrix": null,
+      "mustEntity": {
+        "fe_t": "User",
+        "scores": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-114": {
+    "data": {
+      "fq_name": "xyz",
+      "tags": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-115": {
+    "data": {
+      "__typename": "Query",
+      "matrix": null,
+      "nums": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-116": {
+    "data": {
+      "entity": null,
+      "flag": false,
+      "fq_name": "b"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-117": {
+    "data": {
+      "matrix": null,
+      "mustUser": {
+        "fn_id": "b",
+        "fu_id": "b",
+        "fu_name": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-118": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-119": {
+    "data": {
+      "a1": {
+        "__typename": "User",
+        "id": "xyz",
+        "tags": []
+      },
+      "fq_name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-120": {
+    "data": {
+      "nodes": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-121": {
+    "data": {
+      "__typename": "Query",
+      "fq_name": null,
+      "mustEntity": {
+        "fe_t": "User"
+      },
+      "users": [
+        {
+          "__typename": "User",
+          "id": "b",
+          "name": "a"
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-122": {
+    "data": {
+      "a1": "",
+      "entity": null,
+      "matrix": [],
+      "mustEntity": {}
+    },
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "intersection/fuzz-123": {
+    "data": {
+      "a1": {
+        "friend": null,
+        "id": "b"
+      },
+      "matrix": null,
+      "tags": [
+        "",
+        ""
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-124": {
+    "data": {
+      "__typename": "Query",
+      "matrix": [
+        []
+      ],
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-125": {
+    "data": {
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-126": {
+    "data": {
+      "entity": {
+        "fe_t": "Org"
+      },
+      "matrix": null
+    },
+    "errors": [
+      [
+        "matrix",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-127": {
+    "data": {
+      "nums": [
+        14
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-128": {
+    "data": {
+      "a1": {
+        "__typename": "Org",
+        "a2": null,
+        "fo_id": "",
+        "fo_title": null
+      },
+      "a3": {
+        "friend": null
+      },
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-129": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-130": {
+    "data": {
+      "fq_name": null,
+      "mustUser": {
+        "__typename": "User",
+        "a1": ""
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-131": {
+    "data": {
+      "a1": {
+        "__typename": "User",
+        "scores": [
+          46
+        ],
+        "vip": true
+      },
+      "matrix": [
+        [
+          12,
+          61
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-132": {
+    "data": {
+      "__typename": "Query",
+      "a2": {
+        "__typename": "User",
+        "friend": null,
+        "scores": null,
+        "vip": false
+      },
+      "fq_name": "a",
+      "user": {
+        "a4": [
+          ""
+        ]
+      },
+      "users": null
+    },
+    "errors": [
+      [
+        "users",
+        0,
+        "fu_id"
+      ],
+      [
+        "a2",
+        "scores",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-133": {
+    "data": {
+      "a1": [
+        "xyz",
+        null
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-134": {
+    "data": {
+      "__typename": "Query",
+      "a1": [],
+      "mustEntity": {
+        "friend": {
+          "a2": null,
+          "vip": false
+        },
+        "fu_id": "b",
+        "fu_name": "xyz"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-135": {
+    "data": {
+      "fq_name": "a",
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-136": {
+    "data": {
+      "a1": 50,
+      "a3": {
+        "age": 58,
+        "fn_id": ""
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-137": {
+    "data": {
+      "fq_name": "b",
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-138": {
+    "data": {
+      "__typename": "Query",
+      "a1": null,
+      "mustEntity": {
+        "name": "",
+        "vip": true
+      },
+      "tags": [
+        "a",
+        ""
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-139": {
+    "data": {
+      "fq_name": "xyz",
+      "node": null
+    },
+    "errors": [
+      [
+        "node",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-140": {
+    "data": {
+      "mustUser": {
+        "a1": "b",
+        "a2": []
+      },
+      "nodes": [
+        null,
+        {
+          "a3": "xyz",
+          "fn_id": "xyz"
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-141": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-142": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-143": {
+    "data": {
+      "__typename": "Query",
+      "a3": null,
+      "entity": null
+    },
+    "errors": [
+      [
+        "entity",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-144": {
+    "data": {
+      "__typename": "Query",
+      "flag": false,
+      "user": {
+        "__typename": "User",
+        "name": "a",
+        "vip": false
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-145": {
+    "data": {
+      "__typename": "Query",
+      "nums": [
+        80,
+        87
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-146": {
+    "data": {
+      "a1": {
+        "__typename": "Org",
+        "fn_id": "xyz",
+        "id": "xyz",
+        "members": [],
+        "title": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-147": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-148": {
+    "data": {
+      "matrix": null,
+      "node": {
+        "fu_id": "b",
+        "fu_name": "b",
+        "id": "b",
+        "name": "b"
+      },
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "friend",
+        "fn_id"
+      ],
+      [
+        "user",
+        "fn_id"
+      ],
+      [
+        "matrix",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-149": {
+    "data": {
+      "__typename": "Query",
+      "a1": 66
+    },
+    "errors": []
+  },
+  "intersection/fuzz-150": {
+    "data": {
+      "entity": {
+        "fe_t": "User"
+      },
+      "node": null,
+      "tags": null
+    },
+    "errors": [
+      [
+        "node",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-151": {
+    "data": {
+      "a1": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-152": {
+    "data": {
+      "entity": {
+        "a1": "xyz",
+        "fn_id": ""
+      },
+      "fq_name": "b"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-153": {
+    "data": {
+      "tags": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-154": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-155": {
+    "data": {
+      "fq_name": "",
+      "user": {
+        "a1": null,
+        "id": "xyz",
+        "name": "b"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-156": {
+    "data": {
+      "__typename": "Query",
+      "node": {
+        "a1": "b",
+        "fo_id": "b",
+        "fo_title": "xyz"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-157": {
+    "data": {
+      "flag": false
+    },
+    "errors": []
+  },
+  "intersection/fuzz-158": {
+    "data": {
+      "a1": 15
+    },
+    "errors": []
+  },
+  "intersection/fuzz-159": {
+    "data": {
+      "__typename": "Query",
+      "count": 67,
+      "flag": true,
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-160": {
+    "data": {
+      "count": null,
+      "tags": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-161": {
+    "data": {
+      "__typename": "Query",
+      "entity": {
+        "__typename": "User",
+        "a1": false,
+        "name": "b"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-162": {
+    "data": {
+      "user": null,
+      "users": [
+        {
+          "fn_id": "a",
+          "scores": [
+            70
+          ]
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-163": {
+    "data": {
+      "node": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-164": {
+    "data": {
+      "mustEntity": {
+        "a1": "",
+        "fe_t": "User",
+        "tags": [
+          "",
+          ""
+        ]
+      },
+      "nums": null,
+      "tags": [
+        ""
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-165": {
+    "data": {
+      "__typename": "Query",
+      "mustEntity": {
+        "a2": [],
+        "fo_id": "xyz",
+        "fo_title": "b"
+      },
+      "name": "xyz"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-166": {
+    "data": {
+      "__typename": "Query",
+      "entity": null,
+      "mustEntity": {
+        "__typename": "User",
+        "fe_t": "User"
+      }
+    },
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "intersection/fuzz-167": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-168": {
+    "data": {
+      "name": "a",
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-169": {
+    "data": {
+      "__typename": "Query",
+      "flag": false,
+      "fq_name": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-170": {
+    "data": {
+      "a1": [
+        36
+      ],
+      "entity": {
+        "__typename": "Org",
+        "fe_t": "Org",
+        "members": null,
+        "title": "b"
+      },
+      "tags": [
+        "a",
+        null
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-171": {
+    "data": {
+      "a1": [
+        "",
+        "xyz"
+      ],
+      "count": 14,
+      "fq_name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-172": {
+    "data": {
+      "a1": [],
+      "entity": {},
+      "fq_name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-173": {
+    "data": {
+      "count": null,
+      "mustUser": {
+        "__typename": "User",
+        "friend": {
+          "__typename": "User",
+          "a1": {
+            "age": 83,
+            "fn_id": "",
+            "fu_id": "",
+            "fu_name": "b",
+            "id": "",
+            "name": "b"
+          },
+          "scores": null
+        },
+        "name": ""
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-174": {
+    "data": {
+      "a1": [],
+      "entity": {},
+      "nodes": [
+        null,
+        {
+          "__typename": "Org",
+          "fn_id": "xyz",
+          "id": "xyz",
+          "members": [
+            {
+              "scores": []
+            },
+            {
+              "scores": null
+            }
+          ]
+        }
+      ]
+    },
+    "errors": [
+      [
+        "nodes",
+        0,
+        "id"
+      ],
+      [
+        "nodes",
+        1,
+        "members",
+        1,
+        "scores",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-175": {
+    "data": {
+      "entity": null
+    },
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "intersection/fuzz-176": {
+    "data": {
+      "__typename": "Query",
+      "entity": null
+    },
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "intersection/fuzz-177": {
+    "data": {
+      "nums": [
+        98,
+        64
+      ],
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-178": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-179": {
+    "data": {
+      "a1": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-180": {
+    "data": {
+      "a1": 94,
+      "fq_name": "",
+      "mustUser": {
+        "scores": [
+          34,
+          52
+        ]
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-181": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-182": {
+    "data": {
+      "a1": {
+        "id": "b"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-183": {
+    "data": {
+      "node": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-184": {
+    "data": {
+      "name": "b",
+      "node": {
+        "a1": "",
+        "fn_id": "",
+        "fo_id": "",
+        "fo_title": "",
+        "id": ""
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-185": {
+    "data": {
+      "entity": {
+        "__typename": "User",
+        "a1": {
+          "__typename": "User",
+          "age": 7,
+          "id": "b",
+          "vip": true
+        },
+        "fe_t": "User",
+        "fn_id": ""
+      },
+      "fq_name": "",
+      "mustUser": {
+        "friend": {
+          "__typename": "User",
+          "fn_id": "b",
+          "fu_id": "b",
+          "fu_name": "xyz",
+          "vip": true
+        },
+        "fu_id": "xyz",
+        "fu_name": "b",
+        "id": "xyz",
+        "name": "b"
+      },
+      "nodes": [
+        {}
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-186": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-187": {
+    "data": null,
+    "errors": [
+      [
+        "a2"
+      ]
+    ]
+  },
+  "intersection/fuzz-188": {
+    "data": {
+      "mustUser": {
+        "__typename": "User",
+        "vip": false
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-189": {
+    "data": {
+      "__typename": "Query",
+      "a1": [],
+      "a3": null,
+      "mustUser": {
+        "fn_id": "xyz",
+        "vip": true
+      },
+      "node": {
+        "__typename": "Org",
+        "a5": [
+          {
+            "fn_id": "b",
+            "fu_id": "b",
+            "fu_name": "xyz",
+            "id": "b",
+            "name": "xyz",
+            "vip": false
+          }
+        ],
+        "a6": "xyz",
+        "fo_id": "xyz",
+        "fo_title": "b",
+        "id": "xyz",
+        "title": "b"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-190": {
+    "data": {
+      "__typename": "Query"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-191": {
+    "data": {
+      "__typename": "Query",
+      "nums": [],
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-192": {
+    "data": {
+      "__typename": "Query",
+      "a1": null,
+      "count": 37
+    },
+    "errors": []
+  },
+  "intersection/fuzz-193": {
+    "data": {
+      "users": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-194": {
+    "data": null,
+    "errors": [
+      [
+        "matrix",
+        0
+      ],
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-195": {
+    "data": {
+      "a2": "",
+      "entity": null
+    },
+    "errors": [
+      [
+        "entity",
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-196": {
+    "data": {
+      "a1": {
+        "id": "a"
+      },
+      "matrix": [
+        [
+          36
+        ]
+      ],
+      "mustUser": {
+        "name": "xyz",
+        "scores": null,
+        "vip": true
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-197": {
+    "data": {
+      "__typename": "Query",
+      "entity": null,
+      "node": {
+        "a1": "a",
+        "fn_id": "a",
+        "fo_id": "a",
+        "fo_title": null
+      }
+    },
+    "errors": [
+      [
+        "entity",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-198": {
+    "data": {
+      "users": [
+        {
+          "__typename": "User",
+          "friend": null,
+          "fu_id": "xyz",
+          "fu_name": "b",
+          "id": "xyz"
+        },
+        {
+          "__typename": "User",
+          "friend": null,
+          "fu_id": "xyz",
+          "fu_name": "",
+          "id": "xyz"
+        }
+      ]
+    },
+    "errors": [
+      [
+        "users",
+        1,
+        "friend",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-199": {
+    "data": {
+      "a1": null,
+      "entity": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-200": {
+    "data": {
+      "a1": {
+        "__typename": "Org",
+        "fn_id": "",
+        "title": "b"
+      },
+      "count": null,
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-201": {
+    "data": {
+      "fq_name": "a",
+      "tags": [
+        "a",
+        "b"
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-202": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-203": {
+    "data": {
+      "__typename": "Query",
+      "a1": "b",
+      "count": 19,
+      "entity": {
+        "__typename": "User",
+        "a2": 28,
+        "a3": null,
+        "fe_t": "User",
+        "id": "",
+        "name": null,
+        "vip": true
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-204": {
+    "data": {
+      "entity": null,
+      "fq_name": "xyz",
+      "mustUser": {
+        "a1": null,
+        "name": "a"
+      },
+      "node": {
+        "__typename": "Org",
+        "fo_id": "a",
+        "fo_title": "xyz",
+        "id": "a",
+        "members": []
+      }
+    },
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "intersection/fuzz-205": {
+    "data": {
+      "a5": null,
+      "nodes": [
+        {
+          "fn_id": "a",
+          "fu_id": "a",
+          "fu_name": "xyz",
+          "id": "a",
+          "vip": false
+        },
+        {
+          "__typename": "Org",
+          "a6": "",
+          "a8": "a",
+          "id": "",
+          "members": []
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-206": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-207": {
+    "data": {
+      "__typename": "Query",
+      "matrix": [
+        [
+          31
+        ],
+        [
+          41,
+          74
+        ]
+      ],
+      "nodes": [],
+      "tags": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-208": {
+    "data": {
+      "__typename": "Query"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-209": {
+    "data": {
+      "count": 84,
+      "fq_name": "a",
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-210": {
+    "data": {
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-211": {
+    "data": {
+      "count": 34,
+      "entity": {
+        "__typename": "Org",
+        "id": "xyz",
+        "title": "b"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-212": {
+    "data": {
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-213": {
+    "data": {
+      "a1": {
+        "a2": [],
+        "id": "xyz",
+        "tags": [
+          "b"
+        ]
+      },
+      "users": [
+        {
+          "a3": "",
+          "a4": [
+            0
+          ]
+        },
+        {
+          "a3": "a",
+          "a4": [
+            15
+          ]
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-214": {
+    "data": null,
+    "errors": [
+      [
+        "a1",
+        0
+      ],
+      [
+        "mustUser",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-215": {
+    "data": {
+      "__typename": "Query"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-216": {
+    "data": {
+      "__typename": "Query",
+      "a1": {
+        "fn_id": "xyz",
+        "id": "xyz"
+      },
+      "count": 66
+    },
+    "errors": []
+  },
+  "intersection/fuzz-217": {
+    "data": {
+      "count": null,
+      "mustUser": {
+        "friend": null,
+        "vip": true
+      },
+      "node": null,
+      "user": {
+        "a3": false,
+        "scores": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-218": {
+    "data": {
+      "a1": null,
+      "entity": {
+        "a2": 70,
+        "fe_t": "User",
+        "fn_id": "",
+        "fu_id": "",
+        "fu_name": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-219": {
+    "data": {
+      "nums": [
+        10
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-220": {
+    "data": {
+      "flag": true
+    },
+    "errors": []
+  },
+  "intersection/fuzz-221": {
+    "data": {
+      "a1": [],
+      "a2": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-222": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-223": {
+    "data": {
+      "__typename": "Query",
+      "entity": null,
+      "fq_name": "b",
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-224": {
+    "data": {
+      "a1": null,
+      "mustUser": {
+        "__typename": "User",
+        "vip": false
+      },
+      "nodes": [
+        null,
+        null
+      ],
+      "users": []
+    },
+    "errors": [
+      [
+        "nodes",
+        0
+      ],
+      [
+        "nodes",
+        1,
+        "a2"
+      ]
+    ]
+  },
+  "intersection/fuzz-225": {
+    "data": {
+      "__typename": "Query",
+      "fq_name": "xyz",
+      "nodes": [
+        {
+          "__typename": "User",
+          "id": "b"
+        }
+      ],
+      "tags": [
+        "xyz"
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-226": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-227": {
+    "data": {
+      "flag": false,
+      "fq_name": "xyz",
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-228": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-229": {
+    "data": {
+      "__typename": "Query",
+      "a1": null,
+      "flag": false
+    },
+    "errors": []
+  },
+  "intersection/fuzz-230": {
+    "data": {
+      "__typename": "Query",
+      "a1": "b",
+      "mustUser": {
+        "a2": "a",
+        "scores": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-231": {
+    "data": {
+      "entity": {
+        "a2": "b",
+        "a3": null,
+        "fe_t": "Org",
+        "id": "a"
+      },
+      "fq_name": "",
+      "users": [
+        {
+          "fu_id": "",
+          "fu_name": "",
+          "id": ""
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-232": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-233": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-234": {
+    "data": {
+      "entity": null
+    },
+    "errors": [
+      [
+        "entity",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-235": {
+    "data": {
+      "a4": null,
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-236": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-237": {
+    "data": {
+      "fq_name": "b",
+      "matrix": [],
+      "nodes": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-238": {
+    "data": null,
+    "errors": [
+      [
+        "user",
+        "vip"
+      ],
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-239": {
+    "data": {
+      "mustEntity": {
+        "a2": "a",
+        "friend": null,
+        "name": null
+      },
+      "user": {
+        "friend": {
+          "a1": "xyz",
+          "id": "xyz"
+        },
+        "tags": [
+          "b",
+          "a"
+        ]
+      }
+    },
+    "errors": [
+      [
+        "mustEntity",
+        "friend",
+        "a3"
+      ]
+    ]
+  },
+  "intersection/fuzz-240": {
+    "data": {
+      "__typename": "Query",
+      "count": 18,
+      "fq_name": null,
+      "nodes": [
+        null
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-241": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-242": {
+    "data": {
+      "entity": null,
+      "fq_name": "xyz"
+    },
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "intersection/fuzz-243": {
+    "data": {
+      "mustEntity": {
+        "__typename": "Org"
+      },
+      "nodes": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-244": {
+    "data": {
+      "a2": null,
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-245": {
+    "data": {
+      "__typename": "Query",
+      "nodes": [
+        null,
+        null
+      ]
+    },
+    "errors": [
+      [
+        "nodes",
+        0
+      ],
+      [
+        "nodes",
+        1,
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-246": {
+    "data": {
+      "a1": [],
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-247": {
+    "data": {
+      "__typename": "Query",
+      "entity": {
+        "__typename": "User"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-248": {
+    "data": {
+      "node": {
+        "id": "a"
+      },
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-249": {
+    "data": {
+      "fq_name": null,
+      "user": {
+        "__typename": "User",
+        "friend": {
+          "fn_id": "b",
+          "scores": []
+        },
+        "fu_id": "a",
+        "fu_name": "xyz",
+        "scores": null
+      },
+      "users": null
+    },
+    "errors": [
+      [
+        "user",
+        "scores",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-250": {
+    "data": {
+      "flag": false,
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-251": {
+    "data": {
+      "fq_name": "a",
+      "mustEntity": {
+        "__typename": "User",
+        "vip": true
+      },
+      "nums": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-252": {
+    "data": {
+      "mustEntity": {
+        "__typename": "User"
+      },
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-253": {
+    "data": {
+      "a2": null,
+      "entity": null,
+      "fq_name": "b",
+      "node": {
+        "fo_id": "b",
+        "fo_title": "a",
+        "id": "b"
+      }
+    },
+    "errors": [
+      [
+        "a2",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-254": {
+    "data": {
+      "__typename": "Query",
+      "a1": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-255": {
+    "data": {
+      "matrix": [],
+      "nums": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-256": {
+    "data": {
+      "__typename": "Query",
+      "mustEntity": {
+        "members": [
+          {
+            "name": "b"
+          }
+        ],
+        "title": ""
+      },
+      "users": [
+        {
+          "friend": {
+            "__typename": "User",
+            "a1": "a",
+            "fn_id": "a",
+            "fu_id": "a",
+            "fu_name": null,
+            "name": null,
+            "tags": [],
+            "vip": false
+          }
+        },
+        {
+          "friend": null
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-257": {
+    "data": {
+      "entity": null,
+      "node": {
+        "__typename": "Org",
+        "fn_id": "a",
+        "fo_id": "a",
+        "fo_title": null,
+        "id": "a"
+      },
+      "tags": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-258": {
+    "data": {
+      "a1": [
+        {
+          "vip": false
+        }
+      ],
+      "fq_name": "a",
+      "name": "a"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-259": {
+    "data": {
+      "__typename": "Query",
+      "count": 0,
+      "mustEntity": {
+        "__typename": "User"
+      },
+      "nodes": [
+        {
+          "__typename": "User",
+          "a2": null,
+          "age": 25,
+          "fu_id": "",
+          "fu_name": null
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-260": {
+    "data": {
+      "a1": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-261": {
+    "data": {
+      "a1": null,
+      "users": null
+    },
+    "errors": [
+      [
+        "users",
+        0,
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-262": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-263": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-264": {
+    "data": {
+      "__typename": "Query",
+      "node": null,
+      "user": null
+    },
+    "errors": [
+      [
+        "node"
+      ]
+    ]
+  },
+  "intersection/fuzz-265": {
+    "data": {
+      "flag": false,
+      "matrix": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-266": {
+    "data": {
+      "__typename": "Query",
+      "entity": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-267": {
+    "data": {
+      "mustUser": {
+        "age": 3,
+        "fn_id": "",
+        "friend": {
+          "__typename": "User"
+        },
+        "fu_id": "",
+        "fu_name": null,
+        "id": "",
+        "scores": [
+          39,
+          41
+        ]
+      },
+      "nodes": [
+        {}
+      ],
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-268": {
+    "data": {
+      "fq_name": null,
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-269": {
+    "data": {
+      "fq_name": "b",
+      "node": null
+    },
+    "errors": [
+      [
+        "node",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-270": {
+    "data": {
+      "nodes": [
+        {
+          "id": ""
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-271": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-272": {
+    "data": {
+      "node": {
+        "fo_id": "xyz",
+        "fo_title": "b",
+        "id": "xyz",
+        "members": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-273": {
+    "data": {
+      "tags": [
+        ""
+      ],
+      "user": {
+        "friend": {
+          "name": "",
+          "scores": [
+            36
+          ]
+        },
+        "fu_id": "xyz",
+        "fu_name": "",
+        "name": "",
+        "vip": false
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-274": {
+    "data": {
+      "fq_name": "xyz",
+      "mustUser": {
+        "a2": 89,
+        "fu_id": "a",
+        "fu_name": ""
+      },
+      "tags": null,
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-275": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-276": {
+    "data": {
+      "fq_name": "xyz",
+      "matrix": [
+        [
+          2
+        ]
+      ],
+      "node": {
+        "friend": null,
+        "fu_id": "",
+        "fu_name": "b",
+        "id": ""
+      }
+    },
+    "errors": [
+      [
+        "node",
+        "friend",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-277": {
+    "data": {
+      "users": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-278": {
+    "data": {
+      "a1": null,
+      "count": null,
+      "user": {
+        "friend": {
+          "friend": {
+            "__typename": "User"
+          },
+          "scores": []
+        }
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-279": {
+    "data": {
+      "a1": {
+        "fu_id": "b",
+        "fu_name": null,
+        "name": null
+      },
+      "flag": false,
+      "fq_name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-280": {
+    "data": {
+      "__typename": "Query",
+      "entity": null,
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-281": {
+    "data": null,
+    "errors": [
+      [
+        "a1",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-282": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-283": {
+    "data": {
+      "nodes": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-284": {
+    "data": {
+      "fq_name": "a",
+      "user": {
+        "__typename": "User",
+        "a2": null,
+        "friend": null
+      },
+      "users": null
+    },
+    "errors": [
+      [
+        "user",
+        "friend",
+        "fu_id"
+      ],
+      [
+        "users",
+        1,
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-285": {
+    "data": {
+      "node": {
+        "__typename": "Org",
+        "a1": null,
+        "id": "",
+        "title": "a"
+      },
+      "nodes": [
+        null,
+        {
+          "__typename": "Org",
+          "a2": "a",
+          "fn_id": "a",
+          "id": "a"
+        }
+      ]
+    },
+    "errors": [
+      [
+        "nodes",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-286": {
+    "data": {
+      "count": null,
+      "matrix": [
+        [
+          68,
+          17
+        ],
+        []
+      ],
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-287": {
+    "data": {
+      "name": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-288": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-289": {
+    "data": {
+      "count": null,
+      "entity": null,
+      "nums": null
+    },
+    "errors": [
+      [
+        "entity",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-290": {
+    "data": {
+      "__typename": "Query",
+      "entity": null,
+      "node": {
+        "friend": null,
+        "fu_id": "a",
+        "fu_name": "xyz",
+        "id": "a",
+        "name": "xyz",
+        "tags": null
+      },
+      "tags": null
+    },
+    "errors": [
+      [
+        "entity",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-291": {
+    "data": {
+      "entity": null,
+      "node": {
+        "__typename": "Org",
+        "a1": null,
+        "fn_id": "xyz",
+        "fo_id": "xyz",
+        "fo_title": "a",
+        "id": "xyz",
+        "title": "a"
+      },
+      "nodes": [
+        {}
+      ]
+    },
+    "errors": [
+      [
+        "node",
+        "a1",
+        0,
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-292": {
+    "data": {
+      "__typename": "Query",
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-293": {
+    "data": {
+      "entity": {
+        "__typename": "Org"
+      },
+      "mustUser": {
+        "fn_id": "",
+        "fu_id": "",
+        "fu_name": "b",
+        "name": "b",
+        "tags": [
+          "",
+          "a"
+        ]
+      },
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-294": {
+    "data": {
+      "__typename": "Query",
+      "a1": {
+        "__typename": "Org",
+        "a2": "b",
+        "a3": "b",
+        "a4": [
+          {
+            "fu_id": "xyz",
+            "fu_name": "xyz",
+            "tags": [
+              "a"
+            ]
+          }
+        ],
+        "fn_id": "b",
+        "fo_id": "b",
+        "fo_title": "b",
+        "title": "b"
+      },
+      "fq_name": "b",
+      "name": "b"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-295": {
+    "data": {
+      "mustUser": {
+        "a2": [
+          28,
+          44
+        ],
+        "a3": null,
+        "friend": {
+          "a4": null,
+          "a5": null
+        }
+      },
+      "users": null
+    },
+    "errors": [
+      [
+        "mustUser",
+        "friend",
+        "a4",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-296": {
+    "data": {
+      "a1": [
+        [
+          78
+        ]
+      ],
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-297": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-298": {
+    "data": {
+      "__typename": "Query",
+      "node": {
+        "fo_id": "b",
+        "fo_title": "xyz",
+        "id": "b",
+        "members": null,
+        "title": "xyz"
+      },
+      "nums": []
+    },
+    "errors": [
+      [
+        "node",
+        "members",
+        0,
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-299": {
+    "data": null,
+    "errors": [
+      [
+        "entity"
+      ],
+      [
+        "mustUser",
+        "fn_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-300": {
+    "data": {
+      "matrix": [
+        [
+          86,
+          72
+        ]
+      ],
+      "node": null
+    },
+    "errors": [
+      [
+        "node"
+      ]
+    ]
+  },
+  "intersection/fuzz-301": {
+    "data": {
+      "flag": true,
+      "nums": [
+        86,
+        80
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-302": {
+    "data": {
+      "a2": null,
+      "nodes": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-303": {
+    "data": {
+      "__typename": "Query",
+      "a1": {
+        "__typename": "User"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-304": {
+    "data": {
+      "__typename": "Query",
+      "a1": [
+        {
+          "friend": {
+            "friend": {
+              "age": 18,
+              "id": "b"
+            },
+            "name": "a",
+            "tags": [
+              ""
+            ]
+          },
+          "fu_id": "xyz",
+          "fu_name": "b",
+          "scores": null
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-305": {
+    "data": {
+      "__typename": "Query",
+      "a1": null,
+      "matrix": null
+    },
+    "errors": [
+      [
+        "a1",
+        "a3"
+      ],
+      [
+        "matrix",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-306": {
+    "data": {
+      "mustEntity": {
+        "fe_t": "Org",
+        "id": "b",
+        "members": null
+      }
+    },
+    "errors": [
+      [
+        "mustEntity",
+        "members",
+        0,
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-307": {
+    "data": null,
+    "errors": [
+      [
+        "a4",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-308": {
+    "data": {
+      "fq_name": "a",
+      "nodes": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-309": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-310": {
+    "data": {
+      "matrix": null
+    },
+    "errors": [
+      [
+        "matrix",
+        0,
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-311": {
+    "data": {
+      "entity": {
+        "name": "a"
+      },
+      "fq_name": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-312": {
+    "data": {
+      "a1": {
+        "__typename": "User",
+        "id": "xyz"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-313": {
+    "data": {
+      "__typename": "Query",
+      "node": {
+        "__typename": "Org",
+        "fo_id": "b",
+        "fo_title": "",
+        "id": "b"
+      },
+      "user": {
+        "age": 43
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-314": {
+    "data": {
+      "nodes": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-315": {
+    "data": {
+      "flag": true
+    },
+    "errors": []
+  },
+  "intersection/fuzz-316": {
+    "data": {
+      "node": {
+        "__typename": "User",
+        "fn_id": "b",
+        "id": "b"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-317": {
+    "data": {
+      "__typename": "Query",
+      "a2": {
+        "a3": [
+          53
+        ],
+        "fu_id": "",
+        "fu_name": "xyz",
+        "id": "",
+        "tags": [
+          ""
+        ]
+      },
+      "node": null,
+      "users": []
+    },
+    "errors": [
+      [
+        "node",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-318": {
+    "data": {
+      "tags": [],
+      "user": {
+        "a2": {
+          "a3": [
+            89
+          ],
+          "friend": {
+            "__typename": "User",
+            "fn_id": "",
+            "fu_id": "",
+            "fu_name": "a",
+            "id": ""
+          },
+          "id": "a"
+        },
+        "fn_id": "a"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-319": {
+    "data": {
+      "node": null
+    },
+    "errors": [
+      [
+        "node",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-320": {
+    "data": {
+      "entity": null,
+      "fq_name": ""
+    },
+    "errors": [
+      [
+        "entity",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-321": {
+    "data": {
+      "fq_name": "a",
+      "mustUser": {
+        "__typename": "User",
+        "a1": {
+          "a2": "b",
+          "age": 77,
+          "tags": [
+            "b",
+            "xyz"
+          ]
+        },
+        "friend": null,
+        "fu_id": "a",
+        "fu_name": "b",
+        "name": "b",
+        "tags": null
+      }
+    },
+    "errors": [
+      [
+        "mustUser",
+        "friend",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-322": {
+    "data": {
+      "count": 49,
+      "entity": null
+    },
+    "errors": [
+      [
+        "entity",
+        "a2"
+      ]
+    ]
+  },
+  "intersection/fuzz-323": {
+    "data": {
+      "__typename": "Query",
+      "a2": [],
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-324": {
+    "data": {
+      "__typename": "Query",
+      "a1": [],
+      "count": null,
+      "entity": null,
+      "flag": true,
+      "fq_name": "b"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-325": {
+    "data": {
+      "count": 2,
+      "mustUser": {
+        "fn_id": "a",
+        "friend": null,
+        "vip": false
+      },
+      "users": null
+    },
+    "errors": [
+      [
+        "users",
+        1
+      ],
+      [
+        "mustUser",
+        "friend",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-326": {
+    "data": {
+      "fq_name": null,
+      "nodes": [
+        {
+          "__typename": "User",
+          "a3": false,
+          "id": "xyz",
+          "name": null
+        },
+        null
+      ]
+    },
+    "errors": [
+      [
+        "nodes",
+        1
+      ]
+    ]
+  },
+  "intersection/fuzz-327": {
+    "data": {
+      "tags": [
+        "b"
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-328": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-329": {
+    "data": {
+      "a1": [
+        "xyz"
+      ],
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-330": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-331": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-332": {
+    "data": {
+      "nums": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-333": {
+    "data": {
+      "__typename": "Query"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-334": {
+    "data": {
+      "matrix": null,
+      "name": "b"
+    },
+    "errors": [
+      [
+        "matrix",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-335": {
+    "data": {
+      "matrix": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-336": {
+    "data": {
+      "nodes": [
+        {
+          "a1": "b",
+          "age": 35,
+          "fn_id": "b",
+          "fu_id": "b",
+          "fu_name": "a"
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-337": {
+    "data": {
+      "__typename": "Query",
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-338": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-339": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-340": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-341": {
+    "data": {
+      "a1": null,
+      "fq_name": "a",
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-342": {
+    "data": {
+      "__typename": "Query"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-343": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-344": {
+    "data": {
+      "fq_name": "xyz",
+      "node": {
+        "fn_id": "b",
+        "fo_id": "b",
+        "fo_title": "",
+        "id": "b"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-345": {
+    "data": {
+      "entity": null,
+      "matrix": [
+        [],
+        [
+          19
+        ]
+      ]
+    },
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "intersection/fuzz-346": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-347": {
+    "data": {
+      "__typename": "Query"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-348": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-349": {
+    "data": {
+      "nodes": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-350": {
+    "data": {
+      "__typename": "Query",
+      "matrix": null,
+      "name": "a"
+    },
+    "errors": [
+      [
+        "matrix",
+        1
+      ]
+    ]
+  },
+  "intersection/fuzz-351": {
+    "data": {
+      "fq_name": "a",
+      "matrix": [
+        [],
+        [
+          40
+        ]
+      ],
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-352": {
+    "data": {
+      "a2": "b",
+      "fq_name": "b",
+      "mustEntity": {
+        "fo_id": "b",
+        "fo_title": "xyz",
+        "members": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-353": {
+    "data": {
+      "fq_name": "b",
+      "matrix": [
+        [
+          35
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-354": {
+    "data": {
+      "a4": null,
+      "fq_name": null,
+      "node": {
+        "fn_id": "b",
+        "id": "b"
+      },
+      "user": {
+        "fn_id": "",
+        "id": "",
+        "name": "xyz",
+        "scores": []
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-355": {
+    "data": {
+      "nums": null,
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-356": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-357": {
+    "data": {
+      "matrix": [
+        [
+          44,
+          6
+        ]
+      ],
+      "mustEntity": {
+        "a1": "b",
+        "fe_t": "Org",
+        "fo_id": "b",
+        "fo_title": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-358": {
+    "data": null,
+    "errors": [
+      [
+        "a1",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-359": {
+    "data": {
+      "flag": false
+    },
+    "errors": []
+  },
+  "intersection/fuzz-360": {
+    "data": {
+      "mustUser": {
+        "fn_id": "b",
+        "friend": null
+      },
+      "nodes": [
+        null,
+        null
+      ]
+    },
+    "errors": [
+      [
+        "nodes",
+        0,
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-361": {
+    "data": {
+      "__typename": "Query",
+      "user": {
+        "vip": true
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-362": {
+    "data": {
+      "__typename": "Query",
+      "tags": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-363": {
+    "data": {
+      "a1": null,
+      "a4": {
+        "a5": "xyz",
+        "fn_id": "xyz"
+      },
+      "count": 15
+    },
+    "errors": []
+  },
+  "intersection/fuzz-364": {
+    "data": {
+      "__typename": "Query",
+      "a1": {},
+      "fq_name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-365": {
+    "data": {
+      "a1": {
+        "a2": null,
+        "tags": [
+          "a"
+        ]
+      },
+      "a6": null,
+      "fq_name": null,
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-366": {
+    "data": {
+      "a1": {
+        "fn_id": "xyz",
+        "fu_id": "xyz",
+        "fu_name": null,
+        "id": "xyz"
+      },
+      "matrix": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-367": {
+    "data": {
+      "a3": {
+        "__typename": "User"
+      },
+      "count": 30,
+      "entity": {
+        "__typename": "User"
+      },
+      "users": null
+    },
+    "errors": [
+      [
+        "users",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-368": {
+    "data": {
+      "__typename": "Query",
+      "user": {
+        "a1": "",
+        "a3": null,
+        "a4": {
+          "fn_id": "",
+          "fu_id": "",
+          "fu_name": null
+        },
+        "age": 23,
+        "friend": {
+          "a2": "",
+          "fn_id": "",
+          "fu_id": "",
+          "fu_name": null,
+          "id": "",
+          "name": null
+        }
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-369": {
+    "data": {
+      "mustUser": {
+        "fn_id": "xyz",
+        "friend": null,
+        "fu_id": "xyz",
+        "fu_name": null,
+        "name": null,
+        "scores": [
+          -1
+        ],
+        "vip": true
+      },
+      "nums": null
+    },
+    "errors": [
+      [
+        "mustUser",
+        "friend",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-370": {
+    "data": {
+      "fq_name": null,
+      "mustEntity": {
+        "fn_id": "b",
+        "fo_id": "b",
+        "fo_title": "",
+        "members": null,
+        "title": ""
+      },
+      "nodes": null
+    },
+    "errors": [
+      [
+        "mustEntity",
+        "members",
+        0,
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-371": {
+    "data": {
+      "__typename": "Query",
+      "matrix": null,
+      "node": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-372": {
+    "data": {
+      "a1": [
+        ""
+      ],
+      "node": {},
+      "nums": null
+    },
+    "errors": [
+      [
+        "nums",
+        1
+      ]
+    ]
+  },
+  "intersection/fuzz-373": {
+    "data": {
+      "__typename": "Query",
+      "users": [
+        {
+          "a1": "xyz",
+          "fn_id": "",
+          "vip": false
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-374": {
+    "data": {
+      "a1": false,
+      "nodes": [
+        {
+          "__typename": "User",
+          "age": 6,
+          "scores": null
+        }
+      ],
+      "user": {
+        "a2": -5,
+        "fn_id": "b",
+        "id": "b",
+        "tags": [
+          "a",
+          null
+        ]
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-375": {
+    "data": {
+      "a1": null,
+      "count": null
+    },
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-376": {
+    "data": {
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "fn_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-377": {
+    "data": {
+      "a1": {
+        "vip": true
+      },
+      "fq_name": null,
+      "mustEntity": {
+        "__typename": "Org",
+        "fe_t": "Org",
+        "fo_id": "a",
+        "fo_title": "a"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-378": {
+    "data": {
+      "fq_name": null,
+      "matrix": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-379": {
+    "data": {
+      "fq_name": "",
+      "matrix": [],
+      "user": {
+        "friend": {
+          "name": ""
+        },
+        "scores": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-380": {
+    "data": {
+      "name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-381": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-382": {
+    "data": {
+      "entity": null,
+      "matrix": [
+        []
+      ],
+      "nodes": []
+    },
+    "errors": [
+      [
+        "entity",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-383": {
+    "data": {
+      "__typename": "Query",
+      "mustEntity": {
+        "__typename": "Org",
+        "a2": "b",
+        "a3": []
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-384": {
+    "data": {
+      "fq_name": null,
+      "name": null,
+      "users": [
+        {
+          "a1": [
+            75
+          ],
+          "friend": {
+            "scores": null
+          },
+          "id": "xyz"
+        },
+        {
+          "a1": [
+            -4
+          ],
+          "friend": null,
+          "id": "a"
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-385": {
+    "data": {
+      "__typename": "Query",
+      "a1": "xyz",
+      "fq_name": "xyz",
+      "nodes": [
+        {
+          "a3": "a"
+        }
+      ],
+      "nums": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-386": {
+    "data": {
+      "__typename": "Query",
+      "a1": [
+        [
+          12
+        ]
+      ],
+      "fq_name": "b"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-387": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-388": {
+    "data": {
+      "users": null
+    },
+    "errors": [
+      [
+        "users",
+        0,
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-389": {
+    "data": {
+      "nodes": [
+        {
+          "__typename": "User",
+          "age": -3,
+          "fn_id": "xyz",
+          "fu_id": "xyz",
+          "fu_name": null,
+          "id": "xyz",
+          "name": null
+        }
+      ],
+      "tags": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-390": {
+    "data": {
+      "a1": [
+        null,
+        {
+          "id": "a"
+        }
+      ],
+      "flag": false,
+      "fq_name": "xyz",
+      "node": null
+    },
+    "errors": [
+      [
+        "node",
+        "id"
+      ],
+      [
+        "a1",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-391": {
+    "data": {
+      "entity": null,
+      "mustEntity": {
+        "__typename": "Org",
+        "fe_t": "Org"
+      },
+      "name": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-392": {
+    "data": {
+      "__typename": "Query",
+      "flag": true,
+      "tags": [
+        "a",
+        "a"
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-393": {
+    "data": {
+      "flag": false,
+      "node": null,
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "vip"
+      ],
+      [
+        "node",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-394": {
+    "data": {
+      "__typename": "Query",
+      "a4": null,
+      "fq_name": null,
+      "node": null,
+      "user": {
+        "__typename": "User",
+        "a1": null,
+        "name": null,
+        "scores": [
+          99,
+          56
+        ]
+      }
+    },
+    "errors": [
+      [
+        "node",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-395": {
+    "data": {
+      "name": "a",
+      "nums": null,
+      "users": []
+    },
+    "errors": [
+      [
+        "nums",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-396": {
+    "data": {
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-397": {
+    "data": {
+      "__typename": "Query",
+      "a1": null,
+      "a2": {
+        "name": ""
+      },
+      "nums": [
+        64
+      ]
+    },
+    "errors": [
+      [
+        "a1",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-398": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-399": {
+    "data": {
+      "entity": null,
+      "fq_name": "a",
+      "mustUser": {
+        "a1": {
+          "age": 95,
+          "friend": {
+            "__typename": "User"
+          },
+          "fu_id": "",
+          "fu_name": null,
+          "name": null
+        },
+        "friend": {
+          "a2": "",
+          "name": null,
+          "tags": [
+            "b",
+            "xyz"
+          ]
+        }
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-400": {
+    "data": {
+      "__typename": "Query",
+      "a1": [],
+      "fq_name": "",
+      "mustEntity": {
+        "__typename": "Org"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-401": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-402": {
+    "data": {
+      "a1": {
+        "__typename": "User",
+        "fe_t": "User"
+      },
+      "flag": false
+    },
+    "errors": []
+  },
+  "intersection/fuzz-403": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-404": {
+    "data": {
+      "a1": {},
+      "node": {},
+      "tags": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-405": {
+    "data": {
+      "__typename": "Query",
+      "fq_name": null,
+      "node": {
+        "__typename": "Org",
+        "fn_id": "a",
+        "id": "a",
+        "title": "xyz"
+      },
+      "tags": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-406": {
+    "data": {
+      "a1": false,
+      "a2": null,
+      "fq_name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-407": {
+    "data": {
+      "a1": {
+        "__typename": "User",
+        "fe_t": "User"
+      },
+      "fq_name": null,
+      "name": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-408": {
+    "data": {
+      "nums": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-409": {
+    "data": {
+      "tags": null,
+      "user": {
+        "__typename": "User",
+        "friend": null,
+        "scores": [
+          56,
+          74
+        ]
+      }
+    },
+    "errors": [
+      [
+        "user",
+        "friend",
+        "fn_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-410": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-411": {
+    "data": {
+      "a2": {
+        "__typename": "User",
+        "a3": true,
+        "name": "xyz"
+      },
+      "node": null,
+      "users": null
+    },
+    "errors": [
+      [
+        "users",
+        0,
+        "fn_id"
+      ],
+      [
+        "node",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-412": {
+    "data": {
+      "entity": {
+        "__typename": "Org",
+        "fo_id": "b",
+        "fo_title": "xyz",
+        "members": [
+          {
+            "tags": null
+          }
+        ]
+      },
+      "fq_name": "",
+      "matrix": [],
+      "nodes": [
+        {
+          "a2": null,
+          "fo_id": "a",
+          "fo_title": "a",
+          "id": "a",
+          "title": "a"
+        },
+        null
+      ],
+      "nums": null
+    },
+    "errors": [
+      [
+        "nodes",
+        1,
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-413": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-414": {
+    "data": null,
+    "errors": [
+      [
+        "entity",
+        "vip"
+      ],
+      [
+        "mustEntity",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-415": {
+    "data": {
+      "a1": [],
+      "a2": null,
+      "flag": false
+    },
+    "errors": [
+      [
+        "a2",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-416": {
+    "data": {
+      "__typename": "Query",
+      "a1": null,
+      "users": [
+        {
+          "name": "",
+          "tags": null
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-417": {
+    "data": null,
+    "errors": [
+      [
+        "a1",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-418": {
+    "data": {
+      "a3": {
+        "__typename": "User",
+        "fn_id": "b",
+        "friend": {
+          "fn_id": "",
+          "name": null
+        },
+        "tags": [
+          "b",
+          "a"
+        ]
+      },
+      "entity": {
+        "__typename": "Org",
+        "fn_id": "xyz",
+        "members": null
+      }
+    },
+    "errors": [
+      [
+        "entity",
+        "members",
+        0,
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-419": {
+    "data": {
+      "__typename": "Query",
+      "fq_name": "xyz",
+      "matrix": [],
+      "nodes": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-420": {
+    "data": {
+      "a1": "a",
+      "user": {
+        "id": "b",
+        "name": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-421": {
+    "data": {
+      "mustUser": {
+        "age": null,
+        "fu_id": "xyz",
+        "fu_name": "a"
+      },
+      "node": null,
+      "users": null
+    },
+    "errors": [
+      [
+        "users",
+        1
+      ]
+    ]
+  },
+  "intersection/fuzz-422": {
+    "data": {
+      "a1": null,
+      "node": {},
+      "user": {
+        "vip": false
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-423": {
+    "data": {
+      "fq_name": "xyz",
+      "matrix": null,
+      "nums": null
+    },
+    "errors": [
+      [
+        "nums",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-424": {
+    "data": {
+      "node": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-425": {
+    "data": {
+      "__typename": "Query",
+      "fq_name": "xyz",
+      "nums": [
+        18,
+        72
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-426": {
+    "data": {
+      "__typename": "Query",
+      "matrix": null,
+      "node": {
+        "a1": null,
+        "age": 29,
+        "fu_id": "b",
+        "fu_name": null,
+        "id": "b",
+        "name": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-427": {
+    "data": {
+      "entity": null,
+      "matrix": null,
+      "nodes": [
+        {
+          "age": 16,
+          "fn_id": "b",
+          "friend": null,
+          "fu_id": "b",
+          "fu_name": "a",
+          "id": "b"
+        },
+        {
+          "fn_id": "b",
+          "fo_id": "b",
+          "fo_title": "xyz",
+          "id": "b",
+          "members": null,
+          "title": "xyz"
+        }
+      ]
+    },
+    "errors": [
+      [
+        "nodes",
+        0,
+        "friend",
+        "vip"
+      ],
+      [
+        "entity"
+      ],
+      [
+        "matrix",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-428": {
+    "data": {
+      "fq_name": null,
+      "user": {
+        "__typename": "User",
+        "age": 26,
+        "friend": null
+      }
+    },
+    "errors": [
+      [
+        "user",
+        "friend",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-429": {
+    "data": {
+      "a1": [
+        {
+          "fo_id": "a",
+          "fo_title": "b",
+          "id": "a",
+          "members": null,
+          "title": "b"
+        },
+        null
+      ],
+      "count": 52,
+      "name": "xyz"
+    },
+    "errors": [
+      [
+        "a1",
+        0,
+        "members",
+        0
+      ],
+      [
+        "a1",
+        1,
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-430": {
+    "data": {
+      "__typename": "Query",
+      "name": "xyz",
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-431": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-432": {
+    "data": {
+      "count": null,
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-433": {
+    "data": {
+      "a1": {
+        "__typename": "User",
+        "a2": "b",
+        "fn_id": "b"
+      },
+      "matrix": null
+    },
+    "errors": [
+      [
+        "matrix",
+        1
+      ]
+    ]
+  },
+  "intersection/fuzz-434": {
+    "data": {
+      "a1": null,
+      "fq_name": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-435": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-436": {
+    "data": {
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-437": {
+    "data": {
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-438": {
+    "data": null,
+    "errors": [
+      [
+        "a1",
+        0
+      ],
+      [
+        "a2",
+        "a5"
+      ]
+    ]
+  },
+  "intersection/fuzz-439": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-440": {
+    "data": {
+      "a2": null,
+      "node": {
+        "__typename": "Org",
+        "a1": null,
+        "fn_id": "",
+        "fo_id": "",
+        "fo_title": "a",
+        "id": "",
+        "title": "a"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-441": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-442": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-443": {
+    "data": {
+      "__typename": "Query",
+      "a1": null,
+      "flag": true,
+      "fq_name": "b",
+      "nodes": []
+    },
+    "errors": [
+      [
+        "a1",
+        1,
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-444": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-445": {
+    "data": {
+      "a1": {
+        "a2": null,
+        "fn_id": "a",
+        "id": "a"
+      },
+      "fq_name": "",
+      "node": {
+        "__typename": "User",
+        "fn_id": "a"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-446": {
+    "data": {
+      "__typename": "Query",
+      "a1": [],
+      "fq_name": null,
+      "mustUser": {
+        "age": 2,
+        "friend": {
+          "age": 71,
+          "fu_id": "b",
+          "fu_name": "a",
+          "id": "b"
+        },
+        "id": "b",
+        "scores": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-447": {
+    "data": {
+      "__typename": "Query",
+      "entity": null,
+      "name": "a"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-448": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-449": {
+    "data": {
+      "__typename": "Query",
+      "node": {
+        "__typename": "User",
+        "fn_id": "",
+        "friend": {
+          "a1": "a"
+        },
+        "id": "",
+        "vip": false
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-450": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-451": {
+    "data": {
+      "a1": {
+        "friend": null
+      },
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-452": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-453": {
+    "data": {
+      "__typename": "Query",
+      "nums": null
+    },
+    "errors": [
+      [
+        "nums",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-454": {
+    "data": {
+      "__typename": "Query",
+      "count": 98,
+      "fq_name": "xyz",
+      "name": "xyz",
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-455": {
+    "data": {
+      "user": {
+        "a1": [
+          94
+        ],
+        "friend": null
+      },
+      "users": null
+    },
+    "errors": [
+      [
+        "user",
+        "friend",
+        "fn_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-456": {
+    "data": {
+      "__typename": "Query",
+      "mustUser": {
+        "__typename": "User",
+        "a1": "",
+        "a2": false,
+        "friend": {
+          "__typename": "User",
+          "age": 39,
+          "scores": null,
+          "vip": false
+        },
+        "scores": [
+          97
+        ]
+      },
+      "nodes": [],
+      "tags": [
+        "a",
+        ""
+      ],
+      "users": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-457": {
+    "data": {
+      "__typename": "Query",
+      "a1": [
+        [
+          81,
+          97
+        ]
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-458": {
+    "data": {
+      "count": 61,
+      "name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-459": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-460": {
+    "data": {
+      "a1": false,
+      "a2": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-461": {
+    "data": {
+      "fq_name": "b",
+      "matrix": null,
+      "tags": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-462": {
+    "data": {
+      "a1": {
+        "__typename": "User",
+        "id": "a"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-463": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-464": {
+    "data": {
+      "count": 74,
+      "matrix": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-465": {
+    "data": {
+      "__typename": "Query",
+      "entity": {
+        "__typename": "User"
+      },
+      "nums": [
+        47,
+        72
+      ],
+      "tags": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-466": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-467": {
+    "data": {
+      "fq_name": "",
+      "name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-468": {
+    "data": {
+      "__typename": "Query",
+      "user": {
+        "tags": null
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-469": {
+    "data": {
+      "__typename": "Query",
+      "users": [
+        {
+          "a2": null,
+          "friend": null,
+          "scores": [
+            -5
+          ]
+        },
+        {
+          "a2": "a",
+          "friend": {
+            "a1": 99,
+            "fn_id": "",
+            "fu_id": "",
+            "fu_name": null
+          },
+          "scores": []
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-470": {
+    "data": {
+      "count": 0,
+      "entity": null,
+      "fq_name": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-471": {
+    "data": {
+      "nodes": [
+        null
+      ]
+    },
+    "errors": [
+      [
+        "nodes",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-472": {
+    "data": {
+      "a1": 48,
+      "entity": {
+        "fe_t": "User"
+      },
+      "tags": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-473": {
+    "data": {
+      "entity": null,
+      "fq_name": "xyz",
+      "matrix": [],
+      "node": null,
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-474": {
+    "data": {
+      "__typename": "Query",
+      "fq_name": null,
+      "node": {
+        "__typename": "Org",
+        "id": "",
+        "members": [
+          {
+            "name": "xyz"
+          },
+          {
+            "name": "a"
+          }
+        ]
+      },
+      "tags": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-475": {
+    "data": {
+      "a1": [],
+      "a3": -2
+    },
+    "errors": []
+  },
+  "intersection/fuzz-476": {
+    "data": {
+      "fq_name": "xyz"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-477": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-478": {
+    "data": {
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-479": {
+    "data": {
+      "a1": null,
+      "flag": false,
+      "name": "xyz"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-480": {
+    "data": {
+      "__typename": "Query",
+      "entity": null,
+      "fq_name": "",
+      "name": "",
+      "node": null
+    },
+    "errors": [
+      [
+        "node"
+      ]
+    ]
+  },
+  "intersection/fuzz-481": {
+    "data": {
+      "nums": [
+        37
+      ],
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-482": {
+    "data": {
+      "__typename": "Query",
+      "a1": [
+        [
+          10,
+          35
+        ],
+        [
+          43,
+          9
+        ]
+      ],
+      "name": "",
+      "users": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-483": {
+    "data": {
+      "tags": [
+        "xyz",
+        "a"
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-484": {
+    "data": {
+      "__typename": "Query",
+      "mustUser": {
+        "fn_id": "xyz",
+        "friend": {
+          "a2": 76,
+          "age": 76,
+          "id": "",
+          "vip": false
+        },
+        "name": null
+      },
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-485": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-486": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ],
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-487": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity",
+        "a3"
+      ]
+    ]
+  },
+  "intersection/fuzz-488": {
+    "data": {
+      "__typename": "Query",
+      "a1": 38,
+      "matrix": null,
+      "user": {}
+    },
+    "errors": [
+      [
+        "matrix",
+        0,
+        1
+      ]
+    ]
+  },
+  "intersection/fuzz-489": {
+    "data": {
+      "fq_name": "xyz",
+      "tags": [
+        null
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-490": {
+    "data": {
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-491": {
+    "data": {
+      "flag": false,
+      "nums": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-492": {
+    "data": {
+      "fq_name": "xyz",
+      "nodes": [],
+      "nums": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-493": {
+    "data": {
+      "a1": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-494": {
+    "data": {
+      "flag": false,
+      "fq_name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-495": {
+    "data": {
+      "a1": [
+        36,
+        -5
+      ],
+      "a2": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-496": {
+    "data": {
+      "__typename": "Query",
+      "a1": null,
+      "fq_name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-497": {
+    "data": {
+      "matrix": [],
+      "tags": [
+        "a",
+        "xyz"
+      ],
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-498": {
+    "data": {
+      "__typename": "Query",
+      "flag": false,
+      "mustEntity": {
+        "__typename": "User",
+        "a3": [],
+        "age": 66,
+        "fn_id": ""
+      },
+      "nodes": [
+        null
+      ]
+    },
+    "errors": [
+      [
+        "nodes",
+        0,
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-499": {
+    "data": {
+      "flag": false,
+      "node": {
+        "__typename": "Org",
+        "fn_id": "b",
+        "fo_id": "b",
+        "fo_title": "a",
+        "id": "b",
+        "title": "a"
+      },
+      "nums": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-500": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-501": {
+    "data": {
+      "__typename": "Query",
+      "fq_name": "xyz",
+      "nodes": null,
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-502": {
+    "data": {
+      "count": 19,
+      "mustUser": {
+        "friend": null,
+        "name": null,
+        "tags": null
+      },
+      "nodes": null
+    },
+    "errors": [
+      [
+        "mustUser",
+        "friend",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-503": {
+    "data": {
+      "mustUser": {
+        "__typename": "User",
+        "age": 50,
+        "fn_id": "b"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-504": {
+    "data": {
+      "nodes": [
+        {
+          "a2": "a"
+        },
+        {
+          "a2": ""
+        }
+      ],
+      "users": [
+        {
+          "__typename": "User",
+          "a1": 47,
+          "name": "xyz"
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-505": {
+    "data": {
+      "__typename": "Query",
+      "name": "",
+      "node": null
+    },
+    "errors": [
+      [
+        "node"
+      ]
+    ]
+  },
+  "intersection/fuzz-506": {
+    "data": {
+      "matrix": null,
+      "nodes": [
+        {
+          "id": "b",
+          "members": [],
+          "title": ""
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-507": {
+    "data": {
+      "a1": [],
+      "entity": {
+        "__typename": "Org",
+        "fe_t": "Org",
+        "fo_id": "xyz",
+        "fo_title": "a",
+        "members": null
+      },
+      "fq_name": "xyz",
+      "user": {
+        "fn_id": "xyz",
+        "vip": false
+      }
+    },
+    "errors": [
+      [
+        "entity",
+        "members",
+        0,
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-508": {
+    "data": {
+      "fq_name": null,
+      "node": {
+        "__typename": "User",
+        "a1": {
+          "a2": null
+        },
+        "fn_id": "a",
+        "fu_id": "a",
+        "fu_name": "b",
+        "id": "a",
+        "tags": []
+      },
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "fn_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-509": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "friend",
+        "friend",
+        "fn_id"
+      ],
+      [
+        "mustUser",
+        "fn_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-510": {
+    "data": {
+      "a1": 37,
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-511": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-512": {
+    "data": {
+      "fq_name": "b",
+      "mustUser": {
+        "a1": [
+          18
+        ],
+        "a2": true,
+        "age": 87
+      },
+      "nodes": [
+        null,
+        null
+      ],
+      "users": [
+        {
+          "friend": {
+            "fn_id": ""
+          },
+          "id": "xyz",
+          "scores": [
+            4
+          ]
+        },
+        {
+          "friend": {
+            "fn_id": ""
+          },
+          "id": "a",
+          "scores": null
+        }
+      ]
+    },
+    "errors": [
+      [
+        "users",
+        1,
+        "scores",
+        0
+      ],
+      [
+        "nodes",
+        0
+      ],
+      [
+        "nodes",
+        1,
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-513": {
+    "data": {
+      "a1": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-514": {
+    "data": {
+      "a1": {
+        "__typename": "Org",
+        "fn_id": ""
+      },
+      "a2": [
+        "",
+        "xyz"
+      ],
+      "name": "b",
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-515": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "fn_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-516": {
+    "data": {
+      "a4": [],
+      "node": {
+        "__typename": "User"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-517": {
+    "data": {
+      "users": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-518": {
+    "data": {
+      "a1": "a"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-519": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-520": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-521": {
+    "data": {
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-522": {
+    "data": {
+      "name": null,
+      "users": [
+        {
+          "__typename": "User",
+          "age": 2,
+          "friend": {
+            "__typename": "User",
+            "a1": true,
+            "age": 20
+          }
+        },
+        {
+          "__typename": "User",
+          "age": null,
+          "friend": {
+            "__typename": "User",
+            "a1": false,
+            "age": 67
+          }
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-523": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-524": {
+    "data": {
+      "fq_name": "a",
+      "tags": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-525": {
+    "data": {
+      "mustEntity": {},
+      "node": {
+        "a1": "b",
+        "fo_id": "b",
+        "fo_title": "b",
+        "id": "b",
+        "title": "b"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-526": {
+    "data": {
+      "a1": null,
+      "flag": true,
+      "matrix": null
+    },
+    "errors": [
+      [
+        "a1",
+        "a2"
+      ]
+    ]
+  },
+  "intersection/fuzz-527": {
+    "data": {
+      "__typename": "Query",
+      "a1": 94
+    },
+    "errors": []
+  },
+  "intersection/fuzz-528": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-529": {
+    "data": {
+      "__typename": "Query",
+      "a1": {
+        "a3": {
+          "scores": []
+        },
+        "tags": [
+          "a"
+        ]
+      },
+      "entity": {
+        "a4": [],
+        "friend": {
+          "a5": "xyz"
+        },
+        "fu_id": "xyz",
+        "fu_name": null
+      },
+      "node": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-530": {
+    "data": {
+      "matrix": null
+    },
+    "errors": [
+      [
+        "matrix",
+        0,
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-531": {
+    "data": {
+      "node": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-532": {
+    "data": {
+      "__typename": "Query",
+      "fq_name": "b",
+      "name": "b",
+      "nums": [
+        64,
+        83
+      ],
+      "user": {
+        "a2": null,
+        "fn_id": "",
+        "friend": null
+      },
+      "users": null
+    },
+    "errors": [
+      [
+        "user",
+        "friend",
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-533": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-534": {
+    "data": {
+      "__typename": "Query",
+      "count": 14,
+      "entity": {
+        "__typename": "User"
+      },
+      "fq_name": "",
+      "matrix": null
+    },
+    "errors": [
+      [
+        "matrix",
+        0,
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-535": {
+    "data": {
+      "a1": null,
+      "tags": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-536": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-537": {
+    "data": {
+      "__typename": "Query",
+      "count": null,
+      "fq_name": "",
+      "node": null,
+      "nums": [
+        97,
+        6
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-538": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-539": {
+    "data": {
+      "nums": null,
+      "tags": [
+        ""
+      ],
+      "users": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-540": {
+    "data": {
+      "nums": null
+    },
+    "errors": [
+      [
+        "nums",
+        1
+      ]
+    ]
+  },
+  "intersection/fuzz-541": {
+    "data": {
+      "fq_name": "b",
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-542": {
+    "data": {
+      "__typename": "Query",
+      "entity": {},
+      "flag": false,
+      "mustUser": {
+        "friend": null,
+        "id": "b",
+        "name": "a"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-543": {
+    "data": {
+      "node": null
+    },
+    "errors": [
+      [
+        "node",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-544": {
+    "data": {
+      "nums": null,
+      "tags": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-545": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-546": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "a1",
+        "fn_id"
+      ],
+      [
+        "mustUser",
+        "friend",
+        "vip"
+      ],
+      [
+        "mustUser",
+        "fn_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-547": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-548": {
+    "data": {
+      "fq_name": "b"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-549": {
+    "data": {
+      "user": null,
+      "users": [
+        {
+          "friend": {
+            "a1": null,
+            "fn_id": "",
+            "name": "",
+            "scores": []
+          },
+          "fu_id": "",
+          "fu_name": null,
+          "name": null
+        },
+        {
+          "friend": null,
+          "fu_id": "b",
+          "fu_name": "xyz",
+          "name": "xyz"
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-550": {
+    "data": {
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-551": {
+    "data": {
+      "a1": {
+        "age": 3,
+        "id": "xyz",
+        "name": "a"
+      },
+      "node": {
+        "a2": null,
+        "fn_id": "",
+        "fo_id": "",
+        "fo_title": null,
+        "id": "",
+        "title": null
+      }
+    },
+    "errors": [
+      [
+        "node",
+        "a2",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-552": {
+    "data": {
+      "tags": [
+        "",
+        "b"
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-553": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-554": {
+    "data": {
+      "fq_name": null,
+      "user": null,
+      "users": null
+    },
+    "errors": [
+      [
+        "user",
+        "fn_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-555": {
+    "data": {
+      "a3": 17,
+      "fq_name": null,
+      "mustEntity": {
+        "__typename": "Org",
+        "fe_t": "Org",
+        "fn_id": "b",
+        "members": null
+      },
+      "nodes": null
+    },
+    "errors": [
+      [
+        "mustEntity",
+        "members",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-556": {
+    "data": {
+      "__typename": "Query",
+      "nodes": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-557": {
+    "data": {
+      "a1": [
+        66,
+        93
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-558": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-559": {
+    "data": {
+      "count": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-560": {
+    "data": {
+      "a1": {
+        "fe_t": "Org"
+      },
+      "name": "xyz",
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-561": {
+    "data": {
+      "__typename": "Query",
+      "nodes": null,
+      "user": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-562": {
+    "data": {
+      "matrix": [],
+      "nodes": [
+        null,
+        null
+      ],
+      "user": {
+        "name": "xyz",
+        "scores": [
+          27
+        ]
+      }
+    },
+    "errors": [
+      [
+        "nodes",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-563": {
+    "data": null,
+    "errors": [
+      [
+        "a2",
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-564": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-565": {
+    "data": null,
+    "errors": [
+      [
+        "a1",
+        "scores",
+        0
+      ],
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-566": {
+    "data": {
+      "__typename": "Query",
+      "entity": null,
+      "mustEntity": {},
+      "name": "b"
+    },
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "intersection/fuzz-567": {
+    "data": {
+      "node": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-568": {
+    "data": {
+      "__typename": "Query",
+      "a1": [
+        "xyz",
+        null
+      ],
+      "fq_name": null,
+      "matrix": [
+        []
+      ],
+      "name": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-569": {
+    "data": {
+      "a1": null,
+      "user": {
+        "a2": null,
+        "scores": []
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-570": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "vip"
+      ]
+    ]
+  },
+  "intersection/fuzz-571": {
+    "data": {
+      "a1": {},
+      "fq_name": "xyz",
+      "node": null,
+      "tags": [
+        "a"
+      ],
+      "user": {
+        "friend": {
+          "fn_id": "xyz",
+          "fu_id": "xyz",
+          "fu_name": null,
+          "id": "xyz"
+        },
+        "fu_id": "a",
+        "fu_name": "",
+        "scores": []
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-572": {
+    "data": {
+      "fq_name": null,
+      "nodes": [
+        {
+          "__typename": "Org",
+          "a2": "a",
+          "fo_id": "a",
+          "fo_title": "",
+          "id": "a",
+          "members": null,
+          "title": ""
+        }
+      ],
+      "user": {
+        "fn_id": "a",
+        "fu_id": "a",
+        "fu_name": "xyz",
+        "tags": [
+          "a",
+          ""
+        ]
+      }
+    },
+    "errors": [
+      [
+        "nodes",
+        0,
+        "members",
+        0,
+        "fu_id"
+      ]
+    ]
+  },
+  "intersection/fuzz-573": {
+    "data": {
+      "mustUser": {
+        "age": 75,
+        "friend": {
+          "__typename": "User",
+          "a1": 91,
+          "fn_id": "b",
+          "fu_id": "b",
+          "fu_name": "a",
+          "id": "b"
+        }
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-574": {
+    "data": {
+      "__typename": "Query",
+      "count": null,
+      "fq_name": "xyz",
+      "name": "xyz"
+    },
+    "errors": []
+  },
+  "intersection/fuzz-575": {
+    "data": {
+      "a1": [
+        "xyz"
+      ],
+      "count": 99,
+      "entity": null,
+      "matrix": null
+    },
+    "errors": [
+      [
+        "entity"
+      ]
+    ]
+  },
+  "intersection/fuzz-576": {
+    "data": {
+      "a1": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-577": {
+    "data": {
+      "matrix": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-578": {
+    "data": {
+      "__typename": "Query",
+      "fq_name": ""
+    },
+    "errors": []
+  },
+  "intersection/fuzz-579": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-580": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-581": {
+    "data": {
+      "a1": false,
+      "entity": null,
+      "tags": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-582": {
+    "data": {
+      "a1": null,
+      "fq_name": "xyz",
+      "node": {
+        "__typename": "User",
+        "id": "b"
+      }
+    },
+    "errors": []
+  },
+  "intersection/fuzz-583": {
+    "data": {
+      "a1": null
+    },
+    "errors": [
+      [
+        "a1",
+        "a2"
+      ]
+    ]
+  },
+  "intersection/fuzz-584": {
+    "data": {
+      "a1": {
+        "a2": 26,
+        "id": "a",
+        "vip": false
+      },
+      "matrix": []
+    },
+    "errors": []
+  },
+  "intersection/fuzz-585": {
+    "data": {
+      "a1": null,
+      "fq_name": "b",
+      "mustEntity": {
+        "__typename": "User",
+        "fn_id": "a",
+        "fu_id": "a",
+        "fu_name": null,
+        "scores": null,
+        "vip": false
+      }
+    },
+    "errors": [
+      [
+        "mustEntity",
+        "scores",
+        1
+      ]
+    ]
+  },
+  "intersection/fuzz-586": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-587": {
+    "data": {
+      "a1": true,
+      "node": null,
+      "user": {
+        "fn_id": "a",
+        "fu_id": "a",
+        "fu_name": "b",
+        "scores": null
+      }
+    },
+    "errors": [
+      [
+        "user",
+        "scores",
+        0
+      ],
+      [
+        "node"
+      ]
+    ]
+  },
+  "intersection/fuzz-588": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-589": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser"
+      ]
+    ]
+  },
+  "intersection/fuzz-590": {
+    "data": {
+      "__typename": "Query",
+      "a1": true,
+      "users": null
+    },
+    "errors": []
+  },
+  "intersection/fuzz-591": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/fuzz-592": {
+    "data": null,
+    "errors": [
+      [
+        "mustEntity"
+      ]
+    ]
+  },
+  "intersection/fuzz-593": {
+    "data": null,
+    "errors": [
+      [
+        "a1"
+      ]
+    ]
+  },
+  "intersection/fuzz-594": {
+    "data": {
+      "__typename": "Query",
+      "count": null,
+      "nodes": [
+        null
+      ]
+    },
+    "errors": [
+      [
+        "nodes",
+        0
+      ]
+    ]
+  },
+  "intersection/fuzz-595": {
+    "data": {
+      "fq_name": null,
+      "mustEntity": {
+        "fe_t": "Org"
+      },
+      "nodes": [
+        {
+          "id": "a"
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-596": {
+    "data": {},
+    "errors": []
+  },
+  "intersection/fuzz-597": {
+    "data": {
+      "a2": [
+        null
+      ],
+      "fq_name": "",
+      "nodes": [
+        null
+      ],
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "vip"
+      ],
+      [
+        "a2",
+        0,
+        "id"
+      ],
+      [
+        "nodes",
+        0,
+        "id"
+      ]
+    ]
+  },
+  "intersection/fuzz-598": {
+    "data": {
+      "mustUser": {},
+      "name": null,
+      "tags": [
+        null,
+        "b"
+      ]
+    },
+    "errors": []
+  },
+  "intersection/fuzz-599": {
+    "data": {
+      "fq_name": "b"
+    },
+    "errors": []
+  },
+  "intersection/include-false": {
+    "data": {
+      "b": true
+    },
+    "errors": []
+  },
+  "intersection/include-true": {
+    "data": {
+      "a": "x"
+    },
+    "errors": []
+  },
+  "intersection/inline-fragment-no-condition": {
+    "data": {
+      "name": "x"
+    },
+    "errors": []
+  },
+  "intersection/interface-basic": {
+    "data": {
+      "node": {
+        "id": "u1",
+        "name": "Ann"
+      }
+    },
+    "errors": []
+  },
+  "intersection/interface-list-mixed": {
+    "data": {
+      "nodes": [
+        {
+          "__typename": "User",
+          "id": "u1"
+        },
+        {
+          "__typename": "Org",
+          "id": "o1"
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/interface-list-with-null": {
+    "data": {
+      "nodes": [
+        {
+          "id": "u1"
+        },
+        null
+      ]
+    },
+    "errors": []
+  },
+  "intersection/interface-other-branch": {
+    "data": {
+      "node": {
+        "id": "o1",
+        "title": "Acme"
+      }
+    },
+    "errors": []
+  },
+  "intersection/interface-typename-meta": {
+    "data": {
+      "node": {
+        "__typename": "Org",
+        "id": "o1"
+      }
+    },
+    "errors": []
+  },
+  "intersection/list-order-preserved": {
+    "data": {
+      "nums": [
+        3,
+        1,
+        2
+      ]
+    },
+    "errors": []
+  },
+  "intersection/list-stops-after-revoke": {
+    "data": {
+      "nums": null
+    },
+    "errors": [
+      [
+        "nums",
+        0
+      ]
+    ]
+  },
+  "intersection/missing-keys-become-null": {
+    "data": {
+      "count": null,
+      "name": null
+    },
+    "errors": []
+  },
+  "intersection/named-fragment": {
+    "data": {
+      "user": {
+        "id": "u1",
+        "name": "Ann"
+      }
+    },
+    "errors": []
+  },
+  "intersection/nested-fragments": {
+    "data": {
+      "user": {
+        "id": "u1"
+      }
+    },
+    "errors": []
+  },
+  "intersection/nested-list-bubble": {
+    "data": {
+      "matrix": null
+    },
+    "errors": [
+      [
+        "matrix",
+        1
+      ]
+    ]
+  },
+  "intersection/nested-list-inner-item": {
+    "data": {
+      "matrix": null
+    },
+    "errors": [
+      [
+        "matrix",
+        0,
+        1
+      ]
+    ]
+  },
+  "intersection/nested-missing": {
+    "data": {
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "id"
+      ]
+    ]
+  },
+  "intersection/nested-object": {
+    "data": {
+      "user": {
+        "age": 30,
+        "id": "u1",
+        "name": "Ann",
+        "vip": true
+      }
+    },
+    "errors": []
+  },
+  "intersection/non-object-root": {
+    "data": {
+      "count": null,
+      "name": null
+    },
+    "errors": []
+  },
+  "intersection/nonnull-item-revokes-list": {
+    "data": {
+      "nums": null
+    },
+    "errors": [
+      [
+        "nums",
+        1
+      ]
+    ]
+  },
+  "intersection/nonnull-object-revokes-root": {
+    "data": null,
+    "errors": [
+      [
+        "mustUser",
+        "id"
+      ]
+    ]
+  },
+  "intersection/nonnull-scalar-at-root": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/null-root": {
+    "data": {
+      "count": null,
+      "name": null
+    },
+    "errors": []
+  },
+  "intersection/object-list": {
+    "data": {
+      "users": [
+        {
+          "id": "a",
+          "tags": [
+            "x"
+          ]
+        },
+        {
+          "id": "b",
+          "tags": null
+        }
+      ]
+    },
+    "errors": []
+  },
+  "intersection/object-list-null-item": {
+    "data": {
+      "users": null
+    },
+    "errors": [
+      [
+        "users",
+        1
+      ]
+    ]
+  },
+  "intersection/object-revoke-stops-remaining-fields": {
+    "data": {
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "id"
+      ]
+    ]
+  },
+  "intersection/object-revoke-stops-siblings": {
+    "data": {
+      "o": null
+    },
+    "errors": [
+      [
+        "o",
+        "x"
+      ]
+    ]
+  },
+  "intersection/object-revoked-by-child": {
+    "data": {
+      "user": null
+    },
+    "errors": [
+      [
+        "user",
+        "id"
+      ]
+    ]
+  },
+  "intersection/outer-continues-after-revoke": {
+    "data": {
+      "a": null,
+      "b": "kept"
+    },
+    "errors": [
+      [
+        "a",
+        "id"
+      ]
+    ]
+  },
+  "intersection/root-revoked-data-null": {
+    "data": null,
+    "errors": [
+      [
+        "flag"
+      ]
+    ]
+  },
+  "intersection/same-key-merge": {
+    "data": {
+      "user": {
+        "id": "u1",
+        "name": "Ann"
+      }
+    },
+    "errors": []
+  },
+  "intersection/same-key-merge-via-alias": {
+    "data": {
+      "u": {
+        "id": "u1",
+        "name": "Ann"
+      }
+    },
+    "errors": []
+  },
+  "intersection/scalar-list": {
+    "data": {
+      "tags": [
+        "a",
+        "b"
+      ]
+    },
+    "errors": []
+  },
+  "intersection/scalar-list-null-item": {
+    "data": {
+      "tags": [
+        "a",
+        null,
+        "b"
+      ]
+    },
+    "errors": []
+  },
+  "intersection/scalars": {
+    "data": {
+      "count": 3,
+      "flag": true,
+      "name": "n"
+    },
+    "errors": []
+  },
+  "intersection/skip-false": {
+    "data": {
+      "a": "x"
+    },
+    "errors": []
+  },
+  "intersection/skip-merge": {
+    "data": {
+      "a": "x"
+    },
+    "errors": []
+  },
+  "intersection/skip-on-fragment-spread": {
+    "data": {
+      "flag": true
+    },
+    "errors": []
+  },
+  "intersection/skip-on-inline-fragment": {
+    "data": {
+      "flag": true
+    },
+    "errors": []
+  },
+  "intersection/skip-then-collect-order": {
+    "data": {
+      "a": "x",
+      "b": true
+    },
+    "errors": []
+  },
+  "intersection/skip-true": {
+    "data": {
+      "b": true
+    },
+    "errors": []
+  },
+  "intersection/spec-example": {
+    "data": {
+      "z": null
+    },
+    "errors": [
+      [
+        "z",
+        0
+      ]
+    ]
+  },
+  "intersection/two-errors-two-fields": {
+    "data": null,
+    "errors": [
+      [
+        "a"
+      ]
+    ]
+  },
+  "intersection/typename-alias": {
+    "data": {
+      "t": "Query"
+    },
+    "errors": []
+  },
+  "intersection/typename-root": {
+    "data": {
+      "__typename": "Query"
+    },
+    "errors": []
+  },
+  "intersection/union-basic": {
+    "data": {
+      "entity": {
+        "name": "Ann"
+      }
+    },
+    "errors": []
+  },
+  "intersection/union-typename": {
+    "data": {
+      "entity": {
+        "__typename": "Org"
+      }
+    },
+    "errors": []
+  }
+}
